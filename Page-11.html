@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .fourteenth-topic, .fifteenth-topic, .sixtheenth-topic {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    .neuronal-radiation {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover, .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-7, .number-8  {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">V</a><a class="Capitulo-VI" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="References.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-11.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-11.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+    <br>
+    <p class="first-part">&#8212;<span style="background-color: rgba(218, 139, 227, 0.35); font-style: italic; margin-left: 10px;"> THIRDT PART:</span> Theoretical and conceptual models; roughly explained...
+        &nbsp; 
+        <h2 class="capitulo-primero">Chapter VI</h2>
+        <p>The contents of our experiences express the behavior of non-linear waves
+            interacting, and giving rise to these main dynamics known as resonance and
+            derived harmonics. Almost everything within our phenomenology contents can be
+            explained by this model. Also, the fact that our phenomenology behaves as a whole
+            and that there’s utter interconnectivity between all the parts that integrate the
+            experience is enough evidence of the field nature of consciousness…hence it
+            explains the holistic fashion in which our experience works.
+            
+            </p>
+            <br>
+            <p class="fourteenth-topic"> 
+                “Our visual experience as a volumetric diorama representing 2-D
+    retinal stimuli; <span style="color: rgb(37, 155, 141);">Harmonic & resonance theory</span>; Second part: Steven
+    Lehar Scrutiny”
+    
+            </p>
+    
+            <p>The phenomenon of hallucinations and dreams demonstrates the innate capacity
+                of the brain to construct vivid structures of experience, such as entire volumetric
+                worlds. Resonance is all over the place when you’re studying phenomenology, it is
+                everywhere, it is obvious that is the principle in which our experience is rendered.
+                It is not a coincidence, resonant standing waves appear a great number of times
+                throughout the animal kingdom, such as in the beautiful and diverse patterns seen
+                on the skin of various animals, especially mammals and insects. The structure and
+                physiology of the brain also indicates the existence of this phenomena
+                continuously happening within it.<br>
+                Induced states of mind by drug intoxication like psychedelics, deep states of
+                meditation, dreams, even subtle details in our common everyday life experiences
+                resonance shows itself in a quite natural manner. Steven Lehar, as a rational
+                psychonaut, explains the depth quality of volumetric visual experiences similar to
+                dioramas, with resonance. Principle attributed to three-dimensional waves
+                moving through a spatial medium, that as I interpreted, reflects itself into some
+                features of our conscious experience. Explaining optical illusion such as gestalt
+                images, and how the brain is enabled to find the most simple interpretation from a
+                huge array or alternatives almost instantaneously, when any other computer &#8212;at
+                least created by man&#8212; can do that kind of operations. That is a sign that the brain is
+                utilizing this principle as a low level function, it comes out naturally from the
+                brain. As I have mentioned before, we now must think of neurons as antennas
+                emitting useful radiation instead of merely rough bridges exchanging packages of
+                information &#8212;neuron doctrine&#8212;. So, in essence, are those waves traveling and
+                interacting with each other between neurons that actually correspond with our
+                phenomenology, our experiences. Andrés (The head of Qualia Research Institute)
+                says that these waves are “sand-blasting” the electromagnetic field, and raising
+                qualia values. Which creates speculation about the possible correlation of qualia with electromagnetic field distortions -congruent with the electromagnetic theory of consciousness-.
+                </p>
+                
+                <img class="neuronal-radiation" src="imagenes para el sitio/Neuron as an antenna.png">
+    
+                <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">*Neuron’s radiation…*</p>
+                <br>
+                <p>
+                    Steven Lehar proposed that what makes an experience unified or not, is defined by
+    those standing waves that become resonant with one another, so, this principle
+    grants functional unitary systems for free, it seems to be only true for something
+    that Andrés call as “local binding”, and is essentially the reason why colors are
+    sticked or “pasted” on shapes. That would be the main reason why within our
+    experience some qualities come together, such as I already mentioned, color and
+    shape, so they can construct a coherent model of what it seeks to represent.<br>
+    So, what Andrés is saying is that resonance is able to explain the “local-binding
+    problem”, but not the “binding problem” that refers to the entire unity, and
+    holistic-field properties of our experience, so, his suggestion to solve it is through
+    topological segmentation.
+                    <br><br>
+                    <p class="fifteenth-topic">
+                        <span style="font-weight: bold;">Topological pockets; the origins of individuality?:</span>
+                    </p>
+                    
+                </p>
+                <p>
+                    This means that our unified experiences are literally closed pockets within the field
+    of physics. The huge underlying field of qualia becomes divided into new
+    segmented parts, giving rise to…in a sense, new entities or beings. Andrés is also
+    saying that if you make this pocket vibrate, you will get its own resonant modes,
+    thus which allow the pocket to behave as a unit, and evolution was needing
+    something like that so it got it thru this method. Holistic computation is the best
+    and cheapest option that you can choose. Thus that would explain why it is too
+    cheap and easy for our brains to render our human experience. So, consciousness is
+    in fact a THING, not a process. You can do computation with it, because of its
+    intrinsic and useful properties to implement intelligent systems. So, when we are
+    talking about consciousness, we are actually referring to the field of physics,
+    precisely the electromagnetic Field, that is the thing on which all of these gorgeous
+    operations are being made with, so, consciousness is at the implementation level
+    of Analysis. Therefore, an algorithm or computational operation can be conscious
+    or not, depending on the way you’re implementing them. So, we ultimately can’t
+    rely just on the inputs and outputs of a machine, because there’s essentially a lot of
+    ways of performing computation that are highly different from each, but can
+    anyway generate the same behavior or outcomes. Maybe we can build a robot that
+    behaves exactly as a human, but it can’t be conscious, lacking the presence of any
+    kind of “inner movie”happening inward. Besides, that kind of feat, with traditional
+    computation, would be really complicated, and expensive &#8212;in terms of energy&#8212;.<br>
+    Our brains, only with the energy produced by a potato, can run our complex and
+    deep world simulations, basically our entire human experience! The brain is NOT
+    able to do the same job without using consciousness, as I said lately there has to be
+    an energy minimum reason of why consciousness is optimal to make operations
+    related to perception; if consciousness wasn’t advantageous we wouldn’t be here in
+    the first place. If evolution had found a better way to perceive the world using less
+    resources, energy and time than consciousness, it would have already found it,
+    because evolution is really good at solving puzzles. So, consciousness has to be the
+    best way to do all of this.<br>
+    So, returning to the main idea, what’s happening is that the brain is basically
+    pinching the EM field to give rise to a bound experience, and therefore use its
+    “holistic” properties.<br>
+    </p>
+    
+                    <br><br>
+                    <p class="sixtheenth-topic" style="font-weight: bold;">
+                        Trying to give an answer to the question: “<span style="color: rgb(177, 88, 88);">ARE WE brains?</span>, or, <span style="color: rgb(146, 51, 116)">do WE
+                        HAVE brains?</span>”
+    
+                    </p>
+    
+                    <p style="margin-bottom: 20px;">
+                        Andrés was talking about local field potentials in one of his podcasts, and how
+    they’re strongly related to consciousness. Under this kind of observation we could
+    conclude that our phenomenology is actually having a causal power within the
+    brain, and essentially is biasing the neuronal network activity. So, it is quite right
+    to say that our conscious experience is directly influencing the way in which we
+    interact with the world, and even how we conceptualize it, and how we talk about
+    it. So therefore, consciousness is not epiphenomenal in any way, and it could make
+    a lot of sense in the end, I mean, is obvious that we do whatever we do because of
+    qualia, our world simulation is made of qualia, and that model is having on-line
+    power over the whole body. Our sensory qualia-representation avatars are actually
+    leading the physical behavior of the huge machinery we call physical bodies. Is
+    obvious that our pleasure and suffering have an important role in everything we do
+    as a society, and how we eventually talk about those features of experience with
+    others.<br>
+    We are essentially fields, so, we are not even physical matter, we are the
+    electromagnetic field that is being shaped by the complex neuronal grid structure
+    of the brain. Think of neurons as the shape of a river, they determine the way in
+    which water passes (with water I’m referring to consciousness), but also the flux of
+    water itself can gradually change the shape of the river, so there’s an influence
+    from both sides. There’s constant feedback between consciousness (the EM field)
+    and the brain’s matrix. Our conscious experiences have a vibrational physical
+    structure, so this makes complete sense.<br>
+    And because of that, it would be quite true saying “I have a brain” instead of “I’m a
+    brain”, and it is something weird because I think that we as humans have been
+    feeling or groping this (perhaps through phenomenological observation) for a very
+    long time since we began to be rational entities. Basically, that would be the main
+    implicit reason why we think or feel we are souls; that we’re another kind of
+    “ethereal” entity inhabiting the bodies we look at every single day in the mirror, I
+    mean, that kind of transcendental thoughts or feelings humans usually have. The
+    strange feeling of dissociation, or leaving the body, could be key but implicit signs
+    that we’re something somewhere else.<br>
+    </p>
+    
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%; margin-right: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-10.html">&laquo;Previous</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">8</a>
+        <a class="number-9"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-9.html">9</a>
+        <a class="number-10"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">10</a>
+        <a class="number-11"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-left: 5%; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="References.html">Ref.&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

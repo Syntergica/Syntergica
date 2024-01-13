@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Eleventh-topic {
+        color: rgba(31, 30, 30, 0.985);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Twelfth-topic {
+        color: rgb(83, 124, 118);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .more-indirect {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    .cartesian-theater {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover, .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-10, .number-11 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-8.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-8.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+        <h2 class="capitulo-primero">Capitulo IV</h2>
+        <p class="Eleventh-topic"> 
+            <span style="background-color: rgba(247, 193, 102, 0.674)">Vibras, Gestálticos y Reinos; La arquitectura de nuestra simulación
+del mundo:</span>
+        </p>
+
+        <p><span style="font-weight: bold">-“El todo es más que la suma de sus partes”. -Aristoteles</span><br>
+            Existe un concepto en QRI (Instituto de Investigación de la Qualia), apodado como
+            “vibras”, y se refiere básicamente a los ladrillos esenciales con los que nuestra
+            simulación del mundo está construida. Estos “ladrillos” son en realidad ondas
+            no-lineales, lo que significa a grosso modo que son ondas que pueden interactuar
+            con otras. Por ende, estas ondas pueden resonar con otras, si es que sus
+            frecuencias son similares o iguales, lo que significa que están rebotando sobre sí
+            mismas y encontrando estabilidad para sostener una estructura. Existe una amplia colección de vibras, variando en frecuencia (la rapidez con la que vibran), la
+            manera en que se mueven e interactúan, incluso su forma, que tan regulares o
+            irregulares son, lo que determinará el tono hedónico de las mismas, que tan
+            placenteras o no-placenteras serán, todo ello de acuerdo a la teoría de la simetría
+            de Valencia…<span style="background-color:rgba(247, 193, 102, 0.674)">Consonancia –placer–/ruido –experiencia neutral–/disonancia
+            &#8212;sufrimiento&#8212;.</span> De tal forma, cuando tenemos un cúmulo de ondas que pueden
+            resonar entre sí, y mantenerse estables, estas darán lugar a algo denominado como
+            un constructo gestáltico, correspondiente a un objeto reconocible de la experiencia.
+            Una silla, el maullido de un gato, un árbol, o un escalofrío recorriendo tu espalda,
+            por ejemplo. Ahora, si juntas un grupo de constructos gestálticos, puedes crear lo
+            que se conoce como un “reino”, que se refiere a la escena completa de una
+            experiencia. Una analogía hecha por Andrés que lo ilustra mejor es la siguiente:
+            Piensa en las vibras como las herramientas con las que apilamos ladrillos,
+            entonces, un conjunto de ladrillos puestos juntos dan lugar a una pared, la cual
+            corresponde con los constructos gestálticos, de la misma forma, si juntas varias
+            paredes creas una habitación, e incluso una casa entera, lo que corresponde con el
+            panorama completo de tu fenomenología. De tal manera, un reino podría definirse
+            como un ecosistema de constructos gestálticos interactuando entre sí. Un dato
+            adicional sobre esto sería que cuando colocas tu atención sobre un contenido de tu
+            experiencia (estructura de ondas no-lineales), básicamente lo que estás haciendo
+            es energizar la estructura isomorfa a su fenomenología, provocando que todas las
+            partes que la constituyen se vuelvan más cohesivas con las otras, más pegajosas.
+            Entonces, podemos concluir que la atención también cuenta con su propio tipo de
+            ondas no-lineales, lo que significa que la atención tiene una estructura también,
+            por ende su propio poder causal, y manera de influir sobre las demás dentro del
+            enorme ecosistema de ondas que es nuestra mente.
+            
+        </p>
+        <img class="more-indirect" src="imagenes para el sitio/More indirect realism, because I love it.png">
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">“Más realismo indirecto”. “Creo que puedo ver tu aura”. <span style="font-weight: bold;">Autor:</span> Aarón T. M.
+        </span></p>
+        <br>
+        <p style="font-weight: bold; font-size: medium;">&lt;&lt;Más divagación&gt;&gt;</p>
+        <p>
+            Si intentas cartografiar tu cuerpo basado en la experiencia, poniendo suficiente
+            atención en ello, te darás cuenta que tus manos se sienten extremadamente
+            grandes en contraste con su apariencia visual. Este fenómeno se presenta a
+            menudo durante profundos estados meditativos, donde los sujetos reportan sentir
+            ciertas partes de sus cuerpos más exageradas y voluminosas. Como he mencionado
+            en anteriores ocasiones, esto puede ser explicado por la manera en que nuestro
+            cerebro representa el cuerpo físico. En esencia, como he dicho infinidad de veces, lo
+            que experimentamos es en realidad un modelo que el cerebro construye. Algunas
+            partes de nuestros avatar sensorial requieren un mayor procesamiento de
+            información, tal y como en el caso de las manos, lo que se traduce en una notable
+            sensibilidad en aquellos segmentos del cuerpo durante nuestra experiencia
+            consciente. Si eres un realista directo, y crees que tus manos son tus manos perse,
+            tal vez te des por vencido después de intentar “sentir” las venas, vasos sanguíneos
+            y arterias debajo de la piel que las cubren, porque el hecho es que estas no vienen
+            explícitamente incluidas en nuestro avatar sensorial, el cual representa el cuerpo físico. En esencia, existen infinidad de cosas que sabemos están ahí, pero que no
+            aparecen explícitamente en nuestra experiencia consciente del mundo, y eso es
+            porque nuestra representación del entorno solo incluye lo que la evolución
+            encontró como apropiado y útil para nuestra supervivencia, y ser consciente de
+            cada vena o arteria en tu cuerpo tal vez no sea la mejor alternativa para asegurar el
+            bienestar de nuestros arrogantes genes.
+            
+        </p>
+        <img class="cartesian-theater" src="imagenes para el sitio/Cartesian theater.png">
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">“El gran teatro de la mente”. Representación artística del concepto
+            conocido como “teatro Cartesiano”, compartiendo el mismo significado con su
+            equivalente moderno “la pantalla de la consciencia”, refiriéndose a la idea de nuestra
+            experiencia humana como una especie de obra teatral, o extravagante video-juego.
+            Situándonos a nosotros de espectadores imperturbables, en busca de entretenimiento o
+            mera diversión. <br> <span style="font-weight: bold;">Autor:</span> Aarón T. M.
+        </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-7.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-9"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-10"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+        <a class="number-11"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-9.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Fifth-topic {
+        color: rgb(76, 122, 124);
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .features-sketch {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7, .number-6 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-1.html">I</a><a class="Capitulo-II" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="References.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-3.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-3.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+
+        <h2 class="capitulo-primero"></h2>
+    <p class="Fifth-topic">Does the brain have consciousness or does consciousness have a
+        brain? Qualia formalism…
+            </p>
+
+            <p>So, I explored the question of <span style="font-weight: bold;">WHY</span> our minds have a structure, but not the
+                question of <span style="font-weight: bold;">HOW</span> is that our minds have a structure.
+                <br>
+                To make progress in the study of consciousness, and reach a satisfying model of
+    how it works, it is essential to consider that the mind may have a structure and
+    behavior that can be measured and well-represented. Consciousness is not the
+    exception to this rule, and our minds are embodied minds in the end, so every
+    given conscious experience is correlated to a physical structure or system.
+    So, the features of that physical system &#8212;such as the brain&#8212; would correspond to
+    the features of the phenomenology attributed to it, of its “inner movie”, because
+    both are isomorphic. In the same manner, every kind of qualia you can experience
+    is correlated with certain configurations within the structure.
+    I make a brief emphasis here to mention that according to the model formulated by
+    Qualia Research Institute, our “world simulation” is directly attributed to the
+    activity generated by the brain, because it’s by itself a complex vibrational
+    structure made of nonlinear waves; that is the way in which our brain render our
+    conscious experience &#8212;this is addressed at the third part, chapter VI&#8212;.
+    Pleasure and pain can be equally identified as modes of organization of the
+    dynamic structure &#8212;Valence structuralism&#8212;. There’s an interesting concept called
+    the boundary being/form, and it refers to the idea that consciousness is physics
+    viewed from the outside, so the intimate in-wards nature of physical systems is
+    qualia. This would fit perfectly because actually, the science of physics doesn’t
+    know what the ultimate nature of physics is, due to we can only know the
+    superficial behavior of things, such as particles interacting with one another,
+    reminding us that measure is interact with the system we want to measure, so if
+    there’s something that cannot interact with our tools of measurement, then it
+    can’t be even known, this idea was introduced by Kant with the name of
+    noumenon. <br>So, it wouldn’t be too crazy, to relate the intrinsic weird quality of
+    consciousness with the internal nature of physics, concluding that physics is in the
+    end the behavior of qualia, as Andrés said once. That statement feels like
+    panpsychism, right? I don’t say that rocks have a soul and that they can perceive or
+    think, obviously not, it would be more complicated than that, and as I mentioned
+    before, perceive basically imply having a complex system generating a model of the
+    world, same with thoughts, you need enough meta-internal representations to do
+    that, and rocks can’t have something like that inside them. If there’s something to
+    be like a rock, it would be like a bunch of raw micro-qualia flickering constantly or
+    something like that, in the first place it wouldn’t be like a unified experience
+    because setting “how much extent of consciousness does an object can have”
+    sounds too arbitrary. But, anyway, there’s not obviously a sophisticated simulation
+    as in our case, happening in a rock.<br>
+    So, returning to the main topic, thinking of consciousness as physical is called
+    qualia formalism, and this makes a lot of sense because the contents of our
+    conscious experiences have to be somewhere, occupying physical space, energy,
+    and time. This also fits perfectly and reinforces indirect realism, correlating our
+    experience of the world with brain states, so if I’m having the experience of seeing
+    butterflies in a green field, for example, therefore that experience corresponds to a
+    dynamic structure taking place inside the brain. Emphasizing that mentioned
+    lately, it may seem disconcerting for the reader to try to find some likeness
+    between both.<br> On the one hand we’ve our conscious experience of the world &#8212;as we
+    all know it&#8212;, and on the other, unrecognizable morphologies of neuronal matrices.
+    We bump again into the famous philosophical dilemma: “The mind-body
+    problem”. We know for sure that both are related, but we don't know how. How is it
+    possible that the “chattering” of some neurons is the same as the highly vivid
+    experience of walking in the street, on a sunny day?, as an example…If it is really
+    the case that our experience is made of neurons, why don't we see the axons and
+    dendrites &#8212;parts of a neuron&#8212; upholstering the skies, and the sidewalks? From our
+    point of view, as creatures inhabiting this enveloping experience of the world,
+    which exhibits a volume, I mean, that it has depth, may seem quite obvious. Above
+    all, modern science has not found any evidence of this vivid structure of conscious
+    experience within the brain, so, what’s happening? The fact is that our conscious
+    experience has no direct correlation with the biological morphology of neurons,
+    nor of their inner fluctuations of amino acids. <br>It seems to be more about an indirect
+    correlation, well it has been observed that alterations over certain neuronal
+    populations outcome as specific changes within the subjective experience of the
+    subject. However, we don’t know the process in which our world simulation per se
+    is rendered, the thing that we’re interested in. According to the research of Steven
+    Lehar &#8212;Resonance and harmonic theory&#8212;, which is explained at chapter VI, the
+    essential bricks that build up our conscious experience of the world &#8212;as we all
+    know it&#8212&#8212; correspond with electromagnetic field excitations. The pulses emitted by
+    the neurons as they “flicker” continuously generate nonlinear waves &#8212;field
+    distortions&#8212;, which can move and interact with others throughout the volumetric
+    interneuronal medium. In that way, the brain is capable of sustaining three
+    dimensional and dynamic complex structures of vibrational nature, these being the
+    direct correlation with our world experience.
+    Which, at the same time, fits perfectly with the phenomenological observations
+    from our conscious experience, well this exhibits a nonlinear waves behavior
+    &#8212;there are going to be some examples in next chapters&#8212;. These nonlinear waves
+    &#8212;which are explained at chapters IV, and VI&#8212;, by being able to interact with other
+    waves, can be utilized for a great number of computational purposes, among them
+    are to represent, optimize, and render external stimuli, giving rise to such
+    sophisticated objects and phenomena that appear within our conscious experience
+    &#8212;”nonlinear wave computing”&#8212;, explained by Andrés Gómez Emilsson, on his
+    YouTube channel, as well as in his official website “qualia-computing”; take a look
+    into the bibliographic references&#8212;. In the Qualia Research Institute &#8212;scientific
+    organization, headed by Andrés Gómez&#8212; there’s this concept named “holistic field
+    behavior” &#8212;see also in chapter VI&#8212; referring to the evident simultaneous unity of
+    our conscious experience, which reminds of the field behavior studied by physics.
+    According to my interpretation, is this “intrinsic and holistic property” that makes
+    all of the nonlinear constructs distributed spatially throughout the “brain’s
+    medium” &#8212;combined with the harmonic resonance of waves themselves&#8212; collapse
+    into significant objects and qualities of the conscious experience, as part of the
+    same entity &#8212;our experience of the world; as we know it&#8212;. The intention of this
+    chapter is not to overwhelm the reader with technical words, and abstract
+    concepts, but rather convincing about the inherent relation between our conscious
+    experience, and the brain’s activity. In such a way that is proper to think of our
+    experience of the world &#8212;as we all know it&#8212; as a volumetric model &#8212;something
+    like a diorama&#8212; completely designed and controlled by the brain. It would be quite
+    correct for the intentions of this site-web that this premise is imagined by the
+    reader in a literal way, incentivizing a better comprehension of the  up-coming
+    chapters.
+     <br>
+     So we can argue that our world simulation has two sides: <span style="background-color: rgba(165, 196, 145, 0.695)"><span style="font-weight: bold">The inward side</span> is where
+     we’re, the way in which the system feels like, that is where our experience of the
+     world is happening, just as we experience it</span>, <span style="background-color: rgba(251, 196, 134, 0.695)"><span style="font-weight: bold">and the outward side</span>, which corresponds to the physical
+     structure of our experience of the world, viewed from a third-person or external agent standpoint, only present out of the object, attributed to “objective”
+     descriptions.
+     </span>
+                <br>
+                </p>
+                <img class="features-sketch" src="imagenes para el sitio/Sketch aobut some features of our world simulation.jpg">
+    
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Sketch that barely illustrates the main parts of our world
+            simulation. <span style="font-weight: bold;">Author:</span> Aarón T. M.</p>
+            <p>
+            So, before I close the last topic within this section, I should emphasize that all of the
+    stuff mentioned before can be thought of as the essential blocks or main key
+    assumptions to understand what this model of the mind is claiming. Consequently,
+    I’ll dive into more detail and additional implications of it, splitting up the
+    information into different new subtopics that I’ve found to be interesting.
+            </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-2.html">&laquo;Previous</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+    
+        <a class="number-3" style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-3.html">3</a>
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-9.html">9</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">10</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-4.html">Next&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

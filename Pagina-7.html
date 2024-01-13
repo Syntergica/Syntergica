@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Ninth-topic {
+        color: rgb(83, 124, 118);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Tenth-topic {
+        color: rgb(83, 124, 118);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .world-simulation2 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    .luke-design {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover, .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-10, .number-11 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-7.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-7.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+        <h2 class="capitulo-primero">Capitulo III</h2>
+        <p class="Ninth-topic"> 
+            Meta-representaciones: El significado
+        </p>
+
+        <p>
+             Nuestras representaciones internas son lo que pintan las paredes de nuestra
+            experiencia, sin ellas nuestra simulación del mundo estaría terriblemente
+            incompleta. Como he mencionado en anteriores veces, las meta-representaciones
+            internas engloban aspectos como la memoria, las escenas mentales, y el diálogo
+            interno. Siendo la razón por la cual podemos tener un conocimiento en relación a
+            nuestra condición en el mundo. Nuestra simulación del mundo incorpora, y hace
+            uso de un gran número de estas representaciones internas para construir un
+            modelo aún más sutil del mundo <span style="font-weight: bold">&#8212;la capa de meta-representaciones internas,
+            véase en el capítulo II&#8212;.</span> Es por ello que las cosas nos resultan familiares. Sin este
+            esquema de relaciones la vida sería desorientadora. El hecho de que podemos ser
+            conscientes de objetos, eventos y personas sin siquiera tenerlas en frente,
+            evidencia que cada uno de nosotros contiene un modelo interno del mundo, el cual
+            complementa nuestra representación sensorial del mismo &#8212;ya antes abordada&#8212;.<br>
+            De tal manera, uno podría encontrarse en compañía de otra persona en un entorno
+            monótono, para nada estimulante, y sin embargo entablar una conversación
+            entretenida acerca de la vastedad del mundo, excitando la imaginación, y al mismo
+            tiempo evocando memorias, expectativas, y conceptos en la mente…<br>
+            Hago una breve pausa aquí para arrojar un poco de luz sobre el concepto de
+            meta-representaciones internas: Reciben el prefijo “meta”, porque son
+            representaciones basadas en otras representaciones, en otras palabras, lo que
+            tenemos aquí son dos modelos, uno dependiente del otro. En este caso se simulan
+            aspectos de la representación sensorial. “En términos poéticos, es la capacidad que
+            tiene nuestra simulación del mundo para conocerse a sí misma”. Es de remarcar
+            que ambos modelos no se encuentran aislados uno del otro, sino que estos
+            coexisten en un mismo espacio virtual dentro del cerebro. Podemos pensar en esta
+            como una mera extensión más de nuestra simulación del mundo. No es tampoco
+            casualidad que el mundo sensorial parezca estar permeado por nuestros
+            “esquemas de significado”, como si estos constructos mentales estuvieran de
+            alguna manera proyectados en el exterior. Esto es de hecho una característica más de nuestra simulación del mundo. Nuestras representaciones internas se
+            encuentran dispersas a lo largo y ancho del espacio fenoménico que habitamos,
+            aunque de manera implícita. Según lo que estas representen determina en qué
+            parte de nuestra simulación del mundo se encuentran. Por ejemplo, nosotros los
+            seres humanos somos increíblemente buenos cuando se trata de crear un mapa
+            interno de los lugares, y ambientes por los que nos movemos. Es de aclarar que las
+            representaciones internas dependen de experiencias sensoriales previas para poder
+            existir &#8212;en este caso experiencias previas de lugares&#8212;.<br> 
+            Lo fascinante es que podemos incluir estas representaciones internas dentro de
+            nuestra experiencia del mundo &#8212;aunque de manera implícita&#8212;, como si estas
+            fueran estructuras completamente volumétricas teniendo lugar en el exterior, lo
+            cual recuerda bastante a los perceptos amodales &#8212;ya antes mencionados en el
+            capítulo II&#8212;. En otras palabras, nuestra meta-representación interna del espacio &#8212;como
+            estructura implícita&#8212; puede entrelazarse con nuestro modelo visual &#8212;estructura
+            explícita de la experiencia&#8212;, para contribuir a una representación completa del
+            mundo a nuestro alrededor. De esta manera, nuestras representaciones internas
+            nos brindan información que nuestros sentidos no pueden darnos en el momento.
+            “No podemos ver a través de las paredes, y ser conscientes explícitamente del
+            mundo más allá del lugar donde nos encontramos, entonces el cerebro debe
+            forzosamente incluir un modelo implícito y complementario acerca del exterior”.
+            Este “espacio virtual secundario” que proyectamos en nuestra película interna del mundo, es
+            incluso más grande de lo que pensamos. Podemos renderizar de manera implícita
+            ciudades, países e incluso el planeta entero, si es que nuestro modelo del mundo es
+            lo suficientemente exuberante &#8212;si somos lo suficientemente cultos, en esencia&#8212;.
+            Del mismo modo, existen representaciones internas en relación a eventos, o
+            situaciones, lo que nos permite tejer narrativas.<br>
+            Conversaciones casuales, rumores, anécdotas, libros, e incluso estados mentales
+            como ensoñación excesiva, pueden incentivar la creación de escenas mentales, que
+            pueden a su vez transmutar en historias, y fantasías. Lo cual resulta una
+            herramienta conveniente en el momento de comunicarnos con otros seres
+            humanos.
+        
+        </p>
+        <br>
+        <p class="Tenth-topic">Seres de Qualia &#8212;Subagentes&#8212;. Representaciones internas</p>
+        <p>El cerebro incluye un amplio repertorio de entidades &#8212;representaciones internas de
+            otros seres&#8212;; el mundo físico-externo está lleno de otras máquinas biológicas, las
+            cuales cuentan con su propio modelo interno operando simultáneamente, es
+            evidente que en algún punto de la evolución fue necesario incorporar
+            representaciones internas de otras criaturas, para monitorear su comportamiento
+            &#8212;reconocer riesgos, predecir eventos, y evitar imprevistos&#8212;. Recordemos que el
+            objetivo esencial de un sistema dinámico capaz de sustentarse así mismo, se reduce
+            a tener un suficiente control sobre el caos de su entorno &#8212;esto incluye a otras
+            criaturas&#8212;, y así predecir su comportamiento, para ello es forzoso incorporar un
+            modelo interno de su medio ambiente. En otras palabras…las personas con las que interactuamos existen en realidad como sofisticados automatas dentro de nuestra simulación del mundo &#8212;"como si se tratase de un extravagante
+            teatro cósmico"&#8212;. Recordemos que solo tenemos acceso a una representación del
+            entorno, de la misma forma, solo tenemos acceso a bien-definidas réplicas sensoriales de otros seres humanos. En un sentido literal, las personas que
+            conocemos existen solo dentro de los confines de nuestros propios cerebros. Sin
+            embargo, lo que nos interesa en este capítulo son los “remanentes” que la
+            experiencia sensorial deja detrás de sí, las cuales son a su vez archivadas por el
+            cerebro para posteriores usos &#8212;meta-representaciones internas&#8212;.<br>
+            No es una coincidencia, que cuando se sueña con personas conocidas, estas suelen
+            aparecer y comportarse de la misma manera en como lo hacen cuando se interactua
+            “realmente” con ellas. Parte de los principios organizativos que el cerebro utiliza
+            para crear a los seres humanos &#8212;en el acto de representar, y renderizar el
+            exterior&#8212;, parecen de alguna manera “archivarse”, quedando implícitamente
+            “codificados” en nuestra simulación del mundo. De tal forma, el cerebro es capaz
+            de reconstruirlos &#8212;”como si los trajera de nuevo a la vida”&#8212; cuando nos
+            encontramos en aquellos estados alucinatorios &#8212;pasivos&#8212;, que conocemos como
+            sueños. De la misma manera, estos principios organizativos se utilizan para
+            renderizar nuestras escenas mentales &#8212;imaginación&#8212;. Estas réplicas oníricas
+            conservan las respectivas actitudes, personalidades, y temperamento, asociados
+            con la persona, aunado con su “vibra” correspondiente &#8212;concepto abordado en el
+            capítulo IV&#8212;, refiriéndose a la manera en que se siente, o se percibe la presencia de
+            alguien &#8212;por ejemplo, si está es agradable, o genera rechazo, complementada con
+            patrones específicos de qualia&#8212;. Lo cual también se extrapola a objetos, lugares,
+            eventos, etcétera. Una nota adicional que me gustaría colocar aquí es que en
+            sueños, usualmente &#8212;no siempre&#8212; nuestros conocidos pueden ser experimentados
+            como versiones caricaturescas de sí mismos, manteniendo sus características o
+            rasgos más remarcables, al menos en un cierto grado.<br> 
+            En el párrafo anterior se abordaron brevemente los sueños &#8212;un fenómeno familiar
+            para la mayoría&#8212;, pero ahora pasemos a los estados exóticos de consciencia, donde
+            estas entidades también se hacen presentes pero de manera completamente
+            distinta. Es en este “nivel” donde los subagentes se salen de control, adquiriendo
+            incluso la forma de seres sobrenaturales &#8212;el carácter fenoménico con el cual se
+            experimentan suele ser mucho más intenso y vivido en contraste con los sueños, en
+            ciertos casos inclusive más que el estado de vigilia común&#8212;… Comúnmente estas
+            entidades toman el papel de arquetipos, conceptos metafísicos, deidades
+            pertenecientes a religiones, aspectos de la naturaleza, e incluso representaciones
+            internas de sociedades enteras, dependiendo del contexto y determinadas por la
+            manera en que uno mismo filtra dichas representaciones &#8212;complementadas
+            inclusive con otras representaciones internas&#8212;.<br>
+            Hago un énfasis aquí, mencionando que los subagentes &#8212;sin importar su índole&#8212;
+            continúan existiendo durante el transcurso del día a día &#8212;durante el estado
+            ordinario de consciencia; la vigilia&#8212;, más sin embargo de una manera pasiva, e
+            implícita. Ya sea cuando pensamos en las implicaciones sociales de ciertas acciones
+            que tomamos, instantáneamente dichas representaciones se activan para persuadir
+            al usuario, y así modificar su comportamiento. Por ejemplo, imaginemos que la
+            intención de uno es hacerse una perforación en la oreja, inmediatamente las
+            meta-representaciones internas de los padres, de los maestros, e incluso de los
+            amigos se hacen presentes, es ahí cuando surge el tan famoso “¿qué dirán los
+            demás?”, acompañado de escenarios posibles cobrando forma en la imaginación
+            del sujeto. Como mencioné previamente, estas representaciones internas poseen la
+            capacidad de influenciar explícitamente las emociones, y acciones del sujeto que carga con estas. El cerebro humano evolucionó para almacenar esta clase de
+            modelos internos usualmente con el objetivo de asegurar su lugar dentro de alguna
+            tribu; no es casualidad que las tengamos, y las usemos para tomar mejores
+            decisiones. Estas representaciones no solo toman el papel de otros seres humanos,
+            sino de todo lo que pueda tener una “cara”, es decir, todo aquello que sea capaz de
+            expresar signos de sapiencia, inteligencia, empatía, e intenciones propias, entre
+            otros...De tal forma, incluso un cúmulo caótico de estímulos puede convertirse en
+            una entidad dentro de la mente, si este resulta suficientemente sugestivo para
+            considerar dicha posibilidad.<br> 
+            Como mencioné previamente, estas representaciones internas pueden seguir
+            existiendo de manera implícita mientras transcurre la experiencia ordinaria. Es
+            solo durante estados exóticos de consciencia cuando dichas entidades pueden
+            adquirir una apariencia explícita y congruente.<br>
+            Nuestro modelo del mundo resulta excepcional para el reconocimiento de patrones.
+            Una secuencia de eventos aparentemente separados entre sí desde un punto de
+            vista imparcial, puede en esencia adquirir significado, o coherencia si este resuena
+            con las representaciones internas de un sujeto; de tal forma, una entidad puede
+            incluso proyectarse en el mundo externo una vez que se le asocia con ciertos
+            eventos, “indicios” o “señales”, sincronicidades, etcétera. Generando la
+            convincente ilusión de que esta entidad realmente se encuentra interactuando con
+            el “mundo externo” de manera sutil; lo cual es comúnmente reportado por
+            personas con obsesiones compulsivas, fanatismo, ansiedad generalizada, y
+            padecimientos como la esquizofrenia, o psicosis. Inclusive en algunos casos estas
+            entidades pueden “poseer” al usuario, en otras palabras, las representaciones
+            internas pueden tomar control del propio modelo encargado de simular el cuerpo
+            físico, lo que les permite a su vez determinar acciones; esto es sobre todo
+            preocupante, cuando las “intenciones” de la entidad representan un peligro tanto
+            para los demás, como para el usuario per se.<br>
+            Todo lo que sucede en nuestra capa de representaciones internas se construye con
+            algo llamado “vibras”, los cuales están hechos de gradientes de Valencia, es decir,
+            valores emocionales &#8212;el parámetro hedónico&#8212;, por lo que estas pueden determinar
+            el “tono” general de nuestra simulación del mundo. 
+            
+        </p>
+    
+<img class="world-simulation2" src="imagenes para el sitio/World simulation implemented with general intelligent entities.jpg">
+<p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Representación artística, la cual ilustra cómo nuestra capa de
+    meta-representaciones internas se ve envuelta dentro de nuestras mentes, coexistiendo
+    con la réplica perceptual del mundo externo; con una influencia causal mutua, también
+    ilustrando la creencia o sospecha de que algunas entidades, tales como deidades, viven
+    más allá del ordinario “mundo consensual, humano”.<br> <span style="font-weight: bold;">Autor:</span> Aarón T. M.</p>
+    <p>El mundo que experimentamos alrededor nuestro no existe
+        como una desapegada e independiente entidad, sino como un sofisticado diorama
+        compartiendo misma “habitación” con todo lo que conocemos como creencias,
+        pensamientos, memoria, incluyendo otros elementos de nuestra fenomenología,
+        formando parte de la misma entidad hecha de qualia &#8212;nuestra simulación del
+        mundo&#8212;, por lo que ambas constantemente interactúan entre sí.
+        Todas las partes de nuestra experiencia están interconectadas con las demás, y
+        operan sinérgicamente por el bien de hacer que todo funcione. Tampoco olvidemos
+        que nuestra mente puede ser pensada como un ecosistema lleno de replicadores,
+        donde cada cúmulo de coherencia lucha literalmente por tu atención, adquiriendo
+        una mayor “solidez” y permanencia.<br>
+        <span style="font-weight: bold; margin-left: 20px;">-Tal y como representé en el dibujo de arriba, considero que el común fenómeno
+        social de creer en que todas las deidades viven más allá del “mundo humano”,
+        como en el cielo, e incluso “dimensiones alternas”, es porque dichas entidades
+        autónomas e inteligentes hechas de qualia tienen su propio origen en el mismo
+        lugar donde nuestra experiencia del mundo está siendo fabricada, dentro del
+        cerebro…</span><br>
+        Como un ejemplo de lo anterior, el popular manga de nombre “Buenas noches,
+        Punpun” muestra este tipo de fenómeno ocurriendo “dentro” de la mente del
+        protagonista. “Dios”, representado como una cabeza gigante flotando de un lado a
+        otro, aparece ocasionalmente a lo largo de los capítulos, cuyo papel en la trama es
+        de un consejero personal para Punpun, representando el proceso mental y reflexivo
+        que atraviesa durante su camino a la adultez.
+        
+        </p>
+        <img class="luke-design" src="imagenes para el sitio/luke-stuart-punpun-color-new.jpg">
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">
+           Diseño hecho por Luke Stuart.
+            Artista de cómics, ilustrador, y
+            diseñador. Buenas noches, Punpun
+            (2017).
+        </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-6.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-9"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-10"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+        <a class="number-11"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-8.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

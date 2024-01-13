@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Eleventh-topic {
+        color: rgba(31, 30, 30, 0.985);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .thirteenth-topic {
+        color: rgb(83, 124, 118);
+        font-weight: bold;
+        font-size: medium;
+    }
+    
+    .World-model {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 590px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover, .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-7, .number-8  {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-10.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-10.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+        <h2 class="capitulo-primero">Capitulo V</h2>
+        <p class="thirteenth-topic"> 
+            <span>Bosquejo. Creacionismo moderno:
+                </span>
+        </p>
+
+        <p>
+            Desde tiempos antiguos la humanidad ha tratado de hacer sentido de su propia
+            existencia. No es de extrañarse, diría que nuestra experiencia humana parece ser
+            realmente sugestiva por sí misma. Puede haber parecido obvio en el pasado que
+            alguna clase de fuerza o entidad inteligente hubiera creado todo lo que
+            experimentamos, sin embargo nuestro conocimiento moderno puede brindarnos
+            algunas claves importantes para formular un nuevo modelo acerca de la naturaleza
+            de la experiencia humana per se. Como he mencionado en anteriores ocasiones,
+            nuestra simulación del mundo exhibe inteligencia por sí misma; el cerebro utiliza
+            un sinnúmero de dinámicas y “trucos” a fin de crear un coherente modelo
+            consciente que represente lo que sucede “afuera”. No es una coincidencia que en el
+            pasado hubiese tanta especulación al respecto; algo que la humanidad ha estado
+            “sospechando" desde hace un largo tiempo, la cual ha sido como una especie de
+            pista implícita que hemos podido discernir desde que empezamos a ser seres
+            racionales.<br>
+            Recordemos que habitamos un modelo que envuelve un sinfín de operaciones para
+            funcionar apropiadamente, y así mantener una coherencia entre cada momento
+            que integra la experiencia correspondiente. Sin estos parámetros funcionando
+            correctamente, este modelo sería caótico, inviable e inutil desde un punto de vista
+            evolutivo. Como mencioné recientemente, el modelo que habitamos es inteligente
+            por sí mismo, en un sentido literal, el mundo “alrededor nuestro” constantemente se
+            transforma y re-ajusta a sí mismo para mantener una apariencia estable todo el
+            tiempo. La consistente estructura de nuestra experiencia no es una coincidencia,
+            como he mencionado en ocasiones previas, existen un montón de procesos y
+            movidas sucediendo implícitamente que dan lugar a los estables objetos y
+            características que experimentamos, los árboles, el cielo, las nubes, el sonido de la
+            lluvia, las texturas, los aromas, incluso la sensación de caminar; todo se construye
+            gracias a esta “inteligencia”. Todos estos parámetros y dinámicas que renderizan
+            nuestra experiencia consciente del mundo reciben el nombre de “principios
+            organizativos”, y estos se encuentran por todas partes una vez que empiezas a
+            “explorar” la manera en que nuestra simulación del mundo funciona, por medio de
+            prácticas como la meditación, e inclusive otra clase de técnicas: Sueños lúcidos,
+            privación sensorial, o el uso controlado de drogas psicoactivas. El cerebro posee un
+            extenso repertorio de estos modos de organización, con la finalidad de generar los
+            correctos cambios atmosféricos en nuestra experiencia, basados en el incesante
+            flujo de información sensorial traída desde los sentidos. Entonces, la realidad es en
+            esencia un sistema, no existe duda alguna de que existe un diseño inteligente en
+            ella. Podríamos decir que un sinnúmero de cosas ocurren e interactúan para
+            sustentar nuestra sofisticada existencia, pues somos parte central de este
+            sofisticado modelo en última instancia. “Las luces del escenario reposan sobre
+            nosotros”.<br>
+            Retomando el tema principal. Tomando en cuenta todo lo que se ha dicho a lo largo
+            de este documento, podemos argumentar que somos en esencia una creación de
+            nuestros propios cerebros, en un completo sentido literal, “somos alucinaciones
+            controladas con propiedades útiles”. Somos pequeñas criaturas simuladas
+            incorporadas a un modelo volumétrico y sistematizado, el cual puede ser pensado
+            como una función básica de una enorme super-avanzada computadora biológica
+            &#8212;el cerebro&#8212;. Bajo esta premisa, podría concluir que el creacionismo es verdadero.
+            Realmente existe una fuerza impersonal e inteligente que actúa como principal
+            administrador del mundo, somos sus creaciones, y estamos a la merced de su
+            capricho; me estoy refiriendo al cerebro, desde luego. Si estás leyendo esto,
+            significa que te encuentras ahora mismo dentro de un completo y sofisticado modelo
+            del mundo, al igual que todos. Cada vez que miramos al cielo lo que en verdad
+            estamos contemplando es el “techo interno” de nuestro cerebro...El hecho de que
+            todos nosotros contemos con un cerebro efectuando una representación consciente
+            “en-línea” del mundo externo, simultáneamente, da origen a la convincente
+            ilusión de que compartimos y habitamos una misma “realidad” con los demás
+            &#8212;realismo directo&#8212;. La realidad que experimentamos es un modelo virtual privado
+            teniendo lugar dentro de los confines de nuestro cerebro. Desencadenando toda la
+            confusión que he abordado en anteriores anotaciones. Lo que también puede
+            contaminar ciertas creencias, tales como el creacionismo.
+            
+        </p>
+        <img class="World-model" src="imagenes para el sitio/already finished, finally.png">
+        
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">“Mi cerebro consciente”. Representación artística que ilustra el
+            concepto de “simulación del mundo". <span style="font-weight: bold;">Autor:</span> Aarón T. M.</p>
+        <br>
+        <p style="margin-bottom: 20px">No es ningúna coincidencia que las personas del pasado pensaban que nosotros
+            éramos criaturas a la merced de alguna elevada clase de fuerza que tenía control
+            sobre nosotros…Vale la pena mencionar que en el pasado las personas pensaban
+            que cosas tales como enfermedades o desordenes mentales eran un signo de
+            castigo divino, influencia sobrenatural, o maldición. En aquellos tiempos era
+            absolutamente desconcertante de presenciar, porque solo se podía confiar en
+            observaciones fenomenológicas. No estaban enterados de los mecanismos internos
+            del cuerpo humano, como ahora. Pero, no deberíamos ignorar dichas
+            observaciones fenomenológicas que las personas han estado describiendo a lo
+            largo de la historia hasta nuestros días modernos. Podría argumentar que estas son
+            en realidad valiosas desde el punto de vista de este modelo de la mente, quiero
+            decir, tienen un poder explicativo. En otras palabras, ¿cómo es ser un humano
+            desde la experiencia humana per se? Recordemos que nosotros realmente
+            existimos como bien-definidas criaturas que son renderizadas por el cerebro, así
+            como el entorno que experimentamos a nuestro alrededor. Lo cual corresponde
+            directamente con nuestra apariencia fenomenológica.<br>
+            Cuando existe una alteración en la actividad cerebral, como consecuencia se
+            modifican los aspectos y parámetros de nuestra simulación del mundo, lo cual se
+            siente &#8212;desde una perspectiva ingenua&#8212; como si hubieran cambios en la realidad,
+            efectuados por una influencia externa. Y eso es exactamente lo que nuestros
+            ancestros ingenuamente concluían. Otro ejemplo que lo ilustra bien es el fenómeno
+            conocido como “asomatognosia”. Es una rara condición neurológica que da lugar a
+            alteraciones perceptuales, en este caso, atribuidas al esquema corporal. Personas
+            que viven con asomatognosia reportan no sentir algunas partes de sus cuerpos,
+            como si estas no estuvieran allí. En otros casos de desórdenes del esquema
+            corporal, incluso intensas alucinaciones pueden ser experimentadas, tales como la
+            sensación de tener múltiples brazos, en lugar de solo dos. Existe un amplio
+            catálogo de fenómenos con respecto a estas condiciones, pero solo los principales
+            son suficientes para darnos una idea de la premisa de este capítulo.
+        </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-9.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-9"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-10"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+        <a class="number-11"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-11.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

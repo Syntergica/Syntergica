@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Fifth-topic {
+        color: rgb(76, 122, 124);
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .features-sketch {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7, .number-6 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-3.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-3.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+
+        <h2 class="capitulo-primero"></h2>
+    <p class="Fifth-topic">¿El cerebro tiene consciencia o la consciencia tiene cerebro?;
+            formalismo de la Qualia…
+            </p>
+
+            <p>He explorado la pregunta del <span style="font-weight: bold;">PORQUÉ</span> nuestras mentes tienen
+                una estructura, pero no la cuestión referente a <span style="font-weight: bold;">CÓMO</span> es que nuestras mentes
+                tienen estructura. <br>
+                Para hacer progreso en el estudio de la consciencia, y alcanzar un satisfactorio
+                modelo de cómo funciona, es esencial considerar que la mente puede tener una
+                estructura y comportamiento que puede ser medido y bien-representado. La
+                consciencia no es la excepción a esta regla, y nuestras mentes son “mentes con
+                cuerpo” en última instancia, entonces cada experiencia consciente dada está
+                correlacionada con una estructura, o sistema físico. Entonces, las características de
+                un sistema físico (como el cerebro) corresponden con las características de la fenomenología atribuida a éste, de su “película interna”, pues ambas son
+                isomórficas. <br>
+                De esta manera, cada tipo de qualia se correlaciona con configuraciones específicas
+                dentro del sistema. El placer y el dolor pueden ser igualmente identificados como
+                modos de organización de esta estructura dinámica &#8212;estructuralismo de la
+                Valencia&#8212;. Existe un interesante concepto apodado como la barrera “ser/forma”, y
+                se refiere a la idea de que la consciencia es la física vista desde afuera, por lo que la
+                naturaleza interna e íntima de los sistemas físicos es qualia, osease la consciencia.
+                Aunado al hecho de que las ciencias modernas desconocen cuál es la naturaleza
+                última de la física, debido a que únicamente podemos conocer el comportamiento
+                superficial de las cosas, tal y como partículas interactuando unas con otras,
+                haciendo hincapié que medir es interactuar con el sistema que se busca medir, por
+                lo que si hubiera algo que no pudiese interactuar con nuestros instrumentos de
+                medición, entonces aquello no puede ser conocido, esta idea fue introducida por
+                Kant con el nombre de noúmeno. Entonces, no sería una locura relacionar la
+                intrínseca misteriosa cualidad de la consciencia con la naturaleza íntima de la
+                física, concluyendo que la física es en última instancia el comportamiento de la
+                qualia, como Andrés ha mencionado en repetidas ocasiones. Esta propuesta parece
+                algo sacado del panpsiquismo, ¿cierto? No digo que las rocas tienen un "alma" y
+                que pueden percibir y pensar, obviamente no, es algo más complicado que eso, y
+                como he mencionado anteriormente, percibir básicamente implica tener un
+                complejo sistema generando un modelo del mundo, de la misma manera con los
+                pensamientos, se necesitan suficientes meta-representaciones internas para
+                efectuarlo, y las rocas no tienen nada similar a eso en su interior. Si existe algo
+                similar a ser una roca, sería algo más parecido a un montón de insípidas
+                micro-qualia parpadeando constantemente, o algo cercano a ello. En primer lugar
+                tampoco tendría una experiencia unificada porque establecer “cuánta extensión de
+                consciencia puede un objeto tener” suena sumamente arbitrario. Pero, de cualquier
+                modo, obviamente no existe ningún tipo de sofisticada simulación como en
+                nuestro caso sucediendo dentro de una roca.  <br>
+                Entonces, retornando al tema principal, pensar en la consciencia como algo físico
+                se denomina formalismo de la qualia, y esto hace mucho sentido, porque los contenidos de nuestras experiencias conscientes tienen que estar en alguna parte,
+                ocupando un espacio físico, así como energía. Esto también refuerza y encaja
+                perfectamente con el realismo indirecto; pues correlaciona nuestra experiencia del
+                mundo con estados cerebrales, por lo que si estoy teniendo la experiencia de ver
+                mariposas en un campo abierto, por ejemplo, entonces dicha experiencia
+                corresponde con una estructura dinámica teniendo lugar en el interior de mi
+                cerebro. Enfatizando lo mencionado recientemente, puede resultar desconcertante
+                para el lector intentar encontrar algún parecido cercano entre ambos. Por un lado
+                contamos con nuestra experiencia consciente del mundo &#8212;tal y como la conocemos&#8212;, y por el otro, irreconocibles morfologías de matrices neuronales. Nos
+                topamos de nuevo con el famoso dilema filosófico: “Problema mente-cuerpo”.
+                Sabemos de antemano que ambos están estrechamente relacionados, pero
+                desconocemos el cómo. ¿Cómo pueden unas cuantas neuronas “parloteando” ser lo
+                mismo que la experiencia tan vivida de andar por la calle en un día soleado?, por
+                ejemplo…Si nuestra experiencia está realmente hecha de neuronas, ¿por qué no
+                vemos los axones y las dendritas &#8212;partes de una neurona&#8212; tapizando los cielos, y
+                las aceras? Desde nuestro punto de vista, como criaturas habitando esta
+                experiencia envolvente del mundo, la cual exhibe un volumen, es decir, posee
+                profundidad, parece bastante obvio. Después de todo, la ciencia moderna no ha
+                podido hallar ningúna evidencia de esta vivida estructura de experiencia consciente
+                en el cerebro, ¿entonces qué es lo que sucede? La realidad es que nuestra
+                experiencia consciente no tiene una correlación directa con la morfología biológica
+                de las neuronas, ni de sus fluctuaciones internas de aminoácidos. Parece tratarse
+                más de una correlación indirecta, pues se ha observado que las alteraciones sobre
+                ciertas poblaciones de neuronas resultan en cambios específicos dentro de la
+                experiencia subjetiva del sujeto. Sin embargo, desconocemos el proceso de
+                renderización de nuestra simulación del mundo per se, lo cuál nos interesa. Acordé
+                con la investigación de Steven Lehar &#8212;la teoría de resonancia y armónicos&#8212;, la cual
+                se aborda en el capítulo VI, los ladrillos esenciales que constituyen nuestra
+                experiencia consciente del mundo &#8212;tal y como la conocemos&#8212; corresponden con
+                excitaciones del campo electromagnético. Los pulsos emitidos por las neuronas al
+                activarse e inhibirse continuamente generan ondas no-lineales &#8212;distorsiones del
+                campo&#8212;, las cuales pueden moverse e interactuar con otras a lo largo y ancho del medio volumétrico interneuronal. De tal manera, el cerebro es capaz de sustentar
+                complejas estructuras tridimensionales, y dinámicas de naturaleza vibracional,
+                siendo estas la más plausible correlación directa con nuestra experiencia del
+                mundo.  <br>
+                Lo cual, a su vez encaja perfectamente con las observaciones fenomenológicas de
+                nuestra experiencia consciente, pues está exhibe comportamiento de ondas
+                no-lineales &#8212;se darán algunos ejemplos en capítulos posteriores&#8212;. Estas ondas
+                no-lineales &#8212;las cuales se abordan detenidamente en los capítulos IV, y VI&#8212;, al ser
+                capaces de interactuar con otras ondas, pueden ser utilizadas para un sinnúmero de
+                fines computacionales, entre ellas representar, optimizar, y renderizar estímulos
+                externos, dando lugar a los tan sofisticados objetos y fenómenos que aparecen en
+                nuestra experiencia consciente &#8212;”nonlinear wave computing”, abordado por
+                Andrés Goméz Emilsson en su canal de Youtube, así como en su sitio web oficial
+                “qualia-computing”; véase en referencias bibliográficas&#8212;. En Qualia Research
+                Institute &#8212;organización de investigación científica, encabezada por Andrés
+                Goméz Emilsson&#8212; se tiene el concepto de “comportamiento holístico de campo” &#8212;véase
+                también en el capítulo VI&#8212; refiriéndose a la evidente unidad simultánea de nuestra
+                experiencia consciente, lo cual recuerda bastante al comportamiento unificado de
+                los campos estudiados por la física moderna.  <br>
+                Según mi interpretación, es esta propiedad holística e intrínseca de la consciencia
+                lo que hace colapsar todas los constructos no-lineales distribuidos espacialmente a
+                lo largo del "medio cerebral” &#8212;aunado con la resonancia armónica de las mismas
+                ondas&#8212; en los objetos y cualidades significativas de nuestra experiencia
+                consciente, como parte de la misma entidad unificada &#8212;nuestra experiencia del
+                mundo; tal y como la conocemos&#8212;. La intención de este capítulo no es de abrumar
+                al lector con tecnicismos, y conceptos abstractos, sino de convencer acerca de la
+                inherente relación que existe entre nuestra experiencia consciente, y la actividad
+                del cerebro. De tal manera, es apropiado pensar en nuestra experiencia del mundo
+                &#8212;tal y como lo conocemos&#8212; como un modelo volumétrico &#8212;algo así como un
+                diorama&#8212; diseñado y controlado completamente por el cerebro. Sería bastante
+                adecuado para las intenciones de esta obra que esta premisa sea imaginada por el
+                lector de manera literal, incentivando una mejor comprensión de los capítulos por
+                venir. <br>
+                Dicho todo esto, podemos argumentar que nuestra simulación del mundo posee
+                dos lados: <span style="background-color: rgba(165, 196, 145, 0.695)"><span style="font-weight: bold">El lado interno</span> que es donde estamos, la forma en cómo se siente ser el
+                sistema, que es donde ocurre nuestra experiencia del mundo, tal y como la
+                tenemos</span>, <span style="background-color: rgba(251, 196, 134, 0.695)"><span style="font-weight: bold">y el lado externo</span>, que corresponde con la estructura física de nuestra
+                simulación del mundo, vista desde un punto de vista de un tercero, o agente
+                existente solo fuera del objeto, atribuido a las descripciones “objetivas”.</span>
+                <br>
+                </p>
+                <img class="features-sketch" src="imagenes para el sitio/Sketch aobut some features of our world simulation.jpg">
+    
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Sketch, el cual vagamente ilustra las principales partes
+            que constituyen nuestra simulación del mundo. <span style="font-weight: bold;">Autor:</span> Aarón T. M.</p>
+            
+            <p>Antes de cerrar con la última parte de esta sección, hago énfasis en que las cosas
+            mencionadas anteriormente pueden ser pensadas como los bloques esenciales o
+            principales asunciones clave para comprender las afirmaciones de este modelo de
+            la mente. Consecuentemente, profundizaré en más detalles e implicaciones
+            adicionales de este modelo, separando el contenido en diferentes nuevos temas que
+            he encontrado interesantes.
+            </p>
+
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-2.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-3" style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-3.html">3</a>
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-4.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

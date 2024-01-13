@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Seventh-topic {
+        color: rgb(79, 160, 151);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .features-sketch {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 8px;
+  border-radius: 20px;
+  border-width: 1px;
+  box-shadow: 3px 3px 10px;
+  margin-bottom: 20px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="References.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-4.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-4.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+    <br>
+    <p class="first-part">&#8212;<span style="background-color: rgba(218, 139, 227, 0.35); font-style: italic; margin-left: 10px;">SECOND PART:</span> Representalism. Additional details, and the profound implications of it...</p>
+        <h2 class="capitulo-primero">Chapter II</h2>
+        <p class="Seventh-topic"">Diving into the depths of our world simulation:</p>
+        <p style="margin-bottom: 20px;">When we sign or try to describe some phenomenons that appear within our
+            experience, they forcibly seem covered by the fact that we actually live inside a
+            representation of the environment, so we’re describing the behavior and
+            properties of our own world simulation, not about the “objective” world per se,
+            because we don’t have access to it. So, according to this argument, some subjective
+            impressions that we’ve about certain events or phenomena from our experience
+            can be justified. For this reason, I wouldn’t blame the people from the past, who
+            believed (as an example) that the sky was a huge dome painted blue &#8212;As I
+            mentioned previously, these kinds of beliefs, and subjective impressions can be
+            explained in a simple way&#8212;.<br>
+            The sky actually seems to have a curvature &#8212;which
+            reminds of a dome&#8212;, but the thing is that this comes within the category of
+            empirical observations, which can be explained in terms of how our experience of
+            the world works, but not in the terms of an external world per se. Otherwise, we
+            could become lost within extended narratives that don’t lead us anywhere, such as
+            it was common in the past. We can get a complete
+            explanation for everything if we first understand how human experience works by
+            itself. I remark that our human phenomenology is in essence a system, a model
+            that’s ruled by certain parameters, and principles, which can be comprehended.
+            I make a brief pause here to remark that in the past there were a lot of beliefs of this
+            kind, which were well received and accepted within social groups. Their aim was
+            trying to give an explanation to some apparent phenomena shown inside our
+            common experience of the world. I suggest that if we desire to comprehend the
+            “folklore” that involves human dynamics, such as culture, religion, society,
+            theology, etcetera; until we should base our conjectures on a proper and complete
+            understanding of how the human mind works, especially of our conscious
+            experience.<br>
+            Our experience of the world works in terms of represent, and maintain a stable and
+            coherent appearance, all the time, without needing an “additional dimension”; we
+            could think of our mind as a kind of extravagant, enveloping and interactive
+            theater, whose main aim is reduced to perform a well-made play that can be
+            congruent. Allowing us at the same time to build up consistent models about the
+            contents that are shown within the experience; objects, phenomena, events,
+            etcetera. Reinforcing the illusion that we’ve direct and immediate access to a
+            genuine, objective and detached world (direct realism).<br>
+            Then there are other kinds of odd assertions, such as those based on subjective
+            impressions made behind the curtain of non-trivial conditions of the mind (altered
+            states of consciousness), in which the parameters of our world simulations stop
+            worrying about constructing a coherent model of the environment, becoming
+            chaotic, giving rise to these astonishing phenomena of experience. Where the
+            subject can find itself within completely hallucinated spaces or places, and even
+            capable of interacting with objects, or entities apparently independent. In other
+            words, some sensory modalities can also interlock and synchronize with one
+            another to create hallucinated objects, events, even “beings” that are completely
+            congruent, which may convince most people, although this isn’t always the rule,
+            other experiences can be overly chaotic, bordering on the bizarre. As I put
+            emphasis on lately, all the stuff mentioned before can be explained as mere
+            changes in the parameters of our world simulation, also with certain dynamics the
+            brain uses to represent external stimuli, and render our experience of the world. In
+            the type of skepticism I promote, on the basis of indirect realism, and
+            phenomenology, we could think of the world we experience as an extension of our
+            own minds, and the mind works according to its own terms and rules. “Look
+            around you, listen to your surroundings, feel your body; this is the form of your
+            mind”. The fact that the mind instantiates a representation of the “genuine” and
+            inaccessible external world, makes the task of understanding reality even more
+            confusing. We only have access to a completely simulated environment. So, what
+            we’re actually studying are the contents of our experience, therefore we create a
+            mental model about the world our mind represents, but this makes us blind to the
+            phenomenon of the experience by itself.<br>
+            The most prominent feature of our experience is the quality of “directess”; and is
+            in essence the observation that leads the main premise upon which we construct
+            our suppositions. All the mentioned points before are actually observations of the
+            phenomena and general features that exist exclusively inside the world simulation
+            we inhabit. Returning to the previous topic, our world simulations appear to have
+            properties attributed to direct realism, in other words, the world we experience
+            seems to behave as if we were actually perceiving our environment directly and
+            immediately, but this is only another parameter of the representation itself, a kind
+            of adaptive illusion. Is evident that evolution made a great effort to convince us of
+            the authenticity of this simulated world, in order to maintain ourselves immersed
+            and continuously cooperating with replicators, besides, knowing that we’re within
+            a representation doesn’t provide any substantial value in terms of survival.
+            Unfortunately we haven’t evolved to contemplate the implications of our own
+            condition…
+            <br>
+            Most people &#8212;if not everyone&#8212; are naive-direct realists, even a great number of
+scientists committed to study perception still fall within this category. There are
+also people who know that direct realism is indeed not the case, but they keep not
+knowing the implications behind it. 
+<br>I would say that direct realism is a fact, <span style="font-weight: bold;">BUT!, only WITHIN our world simulation,
+    because this representation is by itself a clear consequence of INDIRECT REALISM
+    &#8212;perceive=represent&#8212;.</span>  <br>
+    Our brains are capable of rendering whole virtual worlds that exhibit a unified
+    behavior. Though each sensory modality is rendered individually in a different
+    place of the brain, in relation with others &#8212;spatially distributed&#8212;, they can appear
+    simultaneously within the same “bubble” of experience, in such a way that we can
+    inhabit a unified-complete virtual representation of the environment. Combined
+    with that, our world simulation corresponds to a sophisticated system of nonlinear
+    waves moving and interacting with one another, which is similar to a dynamic
+    lattice of interrelations, so there’s an obvious interconnectivity throughout its
+    structure. This, translates itself into a continuity that permeates the world we
+    experience.    
+        </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-3.html">&laquo;Previous</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-9.html">9</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">10</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-5.html">Next&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

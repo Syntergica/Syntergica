@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .third-topic {
+        color: rgba(162, 68, 186, 0.962);
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .another-sketch {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 450px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7, .number-6, .number-5 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-2.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-2.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+
+        <h2 class="capitulo-primero"></h2>
+<p class="third-topic">
+    Realismo Indirecto; ¿mi cabeza está en el mundo o el mundo está en mi cabeza?:
+</p>
+
+<p>Realismo indirecto. De acuerdo con este modelo, la experiencia del mundo que tenemos es en realidad un modelo en
+    miniatura teniendo lugar dentro de los confines de nuestros propios cerebros. De tal manera, todos contamos con una representación privada del genuino entorno; vivimos dentro de
+    nuestras cabezas todo el tiempo. Esta corriente de pensamiento recibe el nombre de
+    realismo indirecto, o realismo representativo, y es capaz de explicar un sinnúmero de cosas
+    que el realismo directo no puede, tal y como el fenómeno de los sueños: El hecho de
+    que podemos tener experiencias del mundo completas desenvolviendose mientras no nos encontramos receptivos a los
+    estímulos externos, es decir, durmiendo, revela la capacidad innata del cerebro para
+    generar experiencias del mundo. El realismo indirecto también explica de manera
+    sencilla el fenómeno de las alucinaciones, y estados exóticos de consciencia,
+    sugiriendo que una alteración en la actividad del cerebro tiene un efecto
+    inmediato sobre los parámetros de nuestro “modelo interno del mundo”, lo que
+    implica todas las cosas impresionantes que alguien puede experimentar en aquellas
+    condiciones de la mente.<br> Podemos tener perfectamente completas experiencias vividas
+    sin mostrar signos externos de comportamiento, o reacción. Al menos en un nivel
+    superficial.<br>
+    Los sueños, así como los efectos inducidos por la intoxicación de ciertas drogas
+    como salvinorum-A o DMT, ilustran de manera sencilla mi punto. Los seres
+    humanos pueden llegar a experimentar eventos completamente alucinados, y aún
+    así no dar ningún indicio de ello. Es desconcertante el hecho de que alguien pueda
+    estar teniendo la más intensa, abrumadora, y significativa experiencia de su vida
+    mientras yace tirado en el suelo inmóvil. <br>
+    Incluso en nuestras vidas cotidianas, no somos ni siquiera capaces de tener alguna
+    idea de los estados internos de otros seres humanos, menos seremos capaces de
+    saber si otras formas de vida, como los animales, cuentan con una "pelicula interna".<br>
+    No somos ni siquiera capaces de descartar la idea de qualia invertida; este concepto
+    se refiere a la incapacidad de saber si todas las personas en efecto comparten la
+    misma clase de qualia dentro de sus modelos internos y privados del mundo. No
+    puedo saber si alguien está experimentando la misma qualia que yo, cuando ambos
+    acordamos sobre un “hecho” del “mundo externo”. No puedo estar seguro de sí
+    comparto con otra persona el mismo color “rojo”, por ejemplo. Esto no solo se
+    reduce al color, puede extrapolarse incluso a más tipos de qualia; un conocido
+    fenómeno que ilustra esto es la sinestesia, consistiendo en que alguien puede
+    experimentar sonidos en vez de colores, y vice-versa, colores en lugar de aromas,
+    otros incluso pueden experimentar sabores evocados por ciertas palabras, o
+    contenidos semánticos. Y aquellas personas pueden pasar fácilmente inadvertidas
+    entre grupos sociales. Un fenómeno menos increíble es el daltonismo, que consiste
+    en experimentar los colores con cierta variabilidad…Esto claramente revela el
+    arbitrario principio que determina la qualia que experimentamos. Como Andrés
+    Goméz Emilsson &#8212;fundador del Instituto de Investigación de la Qualia&#8212; ha mencionado en
+    algunos de sus ensayos, cualquier tipo de qualia puede representar cualquier otra
+    clase de estimulo, entonces, esto es suficiente evidencia de que los valores de qualia son utilizados &#8212;por el cerebro&#8212; para simular aspectos del mundo externo. De acuerdo con el representalismo, existe
+    qualia que es más ventajosa en relación a otras para representar específicos tipos
+    de estímulos, de tal manera existe una profunda y buena razón por la cual el
+    cerebro utiliza "qualia visual" para representar estímulos de ondas electromagnéticas
+    &#8212;luz física&#8212;, en lugar de cualquier otra clase de qualia; no es algo incidental. <br>
+    Por ello, con todo esto entendido, podemos argumentar que nuestras experiencias
+    ordinarias del mundo son "coherentes-guiadas" alucinaciones desenvolviéndose en una manera elegante, porque nuestro cerebro
+    continuamente genera los adecuados cambios atmosféricos en nuestra
+    experiencia en base al incesante flujo de información sensorial que recibe del mundo externo. El proceso que involucra todo esto no es del todo comprendido aún, pero
+    múltiples comunidades científicas están progresando en este entendimiento, así como el Instituto de Investigación de la Qualia, en cuyo modelo me estoy
+    basando para dar lugar a implicaciones filosóficas e introspectivas, por ello, estaré
+    citando las fuentes de su página principal &#8212;Qualia-computing&#8212; si es necesario.<br>
+    Retomando el tema, si analizamos nuestra fenomenología, rápidamente
+    concluimos que es absolutamente impresionante que una máquina biologica pueda
+    construir todo esto. En un ordinario estado de consciencia, las cosas que amueblan
+    nuestra experiencia expresan un diseño funcional, y bien-definido
+    &#8212;parece que el cerebro está realizando un fantástico trabajo en última instancia&#8212;,
+    todas las partes son cohesivas con las demás, dando lugar a significativos objetos
+    de la experiencia, las diferentes modalidades o familias de qualia que coexisten en
+    nuestra experiencia no parecen verse interrumpidas, ni colapsar entre sí, todas las
+    partes están simplemente intentando hacer su mejor trabajo para contribuir a una
+    coherente, precisa, y estable representación del entorno. Un suficientemente
+    complejo modelo con un gran rango de posibles configuraciones, es en última
+    instancia inteligente por sí mismo, porque tiene un buen-explorado repertorio de
+    posibles dinámicas o soluciones para asegurar resultados deseados. “Principios
+    organizativos”.
+    </p>
+    <img class="another-sketch" src="imagenes para el sitio/another sketch.png">
+    <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Representación artística que ilustra la premisa principal del realismo
+        indirecto. <br> <span style="font-weight: bold;">Autor:</span> Aarón T. M.</p>
+        <br> <br>
+    <p class="Fourth-topic">¿Por qué somos conscientes? Visto desde un punto de vista evolutivo;
+        las útiles propiedades de la consciencia…</p>
+        <p>Pero, espera un minuto, ¿por qué es de esa manera? La sofisticada estructura de
+            nuestra experiencia tiene que tener una profunda historia detrás de sí, o razones
+            para gozar de tal complejidad, ¿cierto? Bueno, en efecto, existe una razón por la
+            cual este extravagante teatro cósmico está sucediendo en la manera en que lo hace,
+            todo el tiempo justo enfrente de “nosotros”, y se llama “principio Darwiniano”,
+            mejor conocido como selección natural, y si no lo has notado aún, el contenido
+            semántico de nuestras experiencias trata acerca de criaturas que buscan sobrevivir
+            y replicarse. Espero no confundir al lector, pero junto con el velo de la familiaridad
+            me estoy refiriendo a nosotros, como seres humanos. A groso modo, somos en
+            última instancia criaturas orgánicas buscando por seguridad y supervivencia,
+            reproduciéndose y entregando sus genes a la siguiente generación, y esta es la
+            clásica cadena de la evolución en la cual nos encontramos. Entonces, nuestra
+            consciencia ha venido evolucionando también, junto a toda esta maquinaria
+            biológica, constantemente perfeccionandose, e incrementando en complejidad, tiene que ser de esa manera para asegurar la supervivencia del organismo. Lo que intento decir es que nuestra experiencia goza de tal
+            complejidad, porque es requerido que así sea.<br>
+            La percepción es la principal regla en la evolución, conocer nuestros alrededores debe implicar la capacidad de identificar los contextos en los que nos encontramos, de tal manera que podemos actuar en consecuencia y así modificar nuestras posibilidades de seguir existiendo como maquinas biologicas. Percibir es representar,
+            como he mencionado en anteriores ocasiones, percibir es crear un modelo, de otro
+            modo, ¿cómo puedes hacer que un trozo de carne entienda o sepa lo que sucede a su
+            alrededor? ¿Cómo introduces “luz” en un cerebro para hacerlo “ver”? Las ondas
+            electromagnéticas no entran al cerebro, de la misma forma en como un rayo de sol
+            entra por tu ventana. Necesitas procesamiento de información para ello;
+            básicamente, un modelo inteligente del mundo incorporado que sea capaz
+            de resolver problemas y enviar mensajes de vuelta al resto del sistema, para evocar
+            una reacción coherente a la situación presente. Y nosotros básicamente estamos en
+            eso todo el tiempo, entonces, esencialmente ser un humano significa ser esta
+            sofisticada simulación del mundo &#8212;un término tópico para la representación que el
+            cerebro genera; correspondiente a nuestra experiencia del mundo&#8212; impregnada de
+            una exquisita variedad de qualia, también manifestada en forma de valores
+            emocionales tales como el placer y el dolor. Ser un humano literalmente significa
+            ser los colores, las formas, los sonidos, las personas, y el mundo, no solo aquello
+            que asociamos con el “yo semántico” que encaja con nuestro “avatar”
+            propioceptivo y kinestésico, la sensación de tener un cuerpo en pocas palabras. Tu
+            mente engloba todo lo que puedes experimentar y saber, incluso tu modelo de
+            cómo las cosas funcionan. Todos nosotros tenemos nuestras propias y privadas
+            simulaciones del mundo trabajando simultáneamente, por lo que podemos
+            organizarnos y tomar acciones acorde con las simulaciones de otros. Entonces,
+            remitiendo a la pregunta principal, ¿por qué este modelo está implementado con
+            sintiencia? ¿Por qué la evolución se molestó en hacernos conscientes? Estamos
+            teniendo una vivida, compleja, multimodal, y unificada experiencia ahora mismo,
+            lo que significa que la evolución se molestó en hacer alguna clase de
+            “programación” implementada con qualia debido a sus posibles útiles propiedades
+            computacionales para empezar. Si la consciencia fuera algo meramente incidental,
+            sería contradictorio el hecho de que nuestra experiencia del mundo sea tan fluida, estructurada, y llena de una exquisita variedad de qualia, tal y como evidentemente
+            la experimentamos.
+            <br>
+            </p>
+            <p style="font-weight: bold;"><span style="font-weight: bolder; font-size: larger; margin-left: 10px;">&bull;</span> “Entonces, la evolución no solo fue el progreso de máquinas orgánicas,
+                sino también una larga, larga experimentación con la consciencia, debido a
+                sus ventajosas propiedades computacionales”.</p>
+                <br>
+            <p style="margin-bottom: 20px;">Rechazando la postura de personas que piensan que la consciencia es un
+                epifenómeno, refiriéndose a que carece de poder causal en lo absoluto, me parece
+                que están negando todo, e incluso a ellos mismos. <br>
+                Considero que esto es así porque usualmente examinan el tema de la consciencia a
+                través de los lentes del realismo directo, e incluso desde una perspectiva de
+                semi-realismo indirecto. Quizá piensen que la representación sólo abarca ciertas
+                cosas, como colores y sensaciones corporales, por lo que no están enterados de que
+                realmente la consciencia envuelve absolutamente todo lo que experimentamos, tal
+                y como el mundo externo, nuestras interacciones con otros, nuestro conocimiento,
+                etcétera. Si la consciencia en verdad fuera un “efecto secundario” sin ningún poder
+                causal o influencia, ¿cómo es posible que podamos hablar de ella, y crear modelos
+                de esta, o estar obsesionados con sus incontables “sabores y texturas”?, colores,
+                sonidos, sensaciones corporales, etcétera. Sin ignorar el hecho de que el lenguaje
+                que usamos diariamente existe para referenciar aspectos de nuestra experiencia
+                consciente del mundo. Podemos incluso reconocer el valor intrínseco y cualitativo
+                de la qualia, como es el caso del placer y el dolor. Toda nuestra civilización está
+                basada en estos valores de qualia, es evidente. <br>
+                Nuestra experiencia consciente claramente tiene una influencia en nuestras
+                acciones, y decisiones. Como mencioné anteriormente, nosotros actuamos acorde
+                con qualia como el placer y el dolor. Hemos construido nuestra civilización entera
+                acorde con ese parámetro, entonces considero al epifenomenalismo como un
+                argumento sin valor real. Todo está hecho de qualia, ¿no es demasiado obvio?
+                Podemos concluir que la consciencia cuenta con obvias propiedades convenientes
+                (poder causal), porque si no las tuviera ninguno de nosotros estaría aquí en primer
+                lugar. No tendríamos acceso a toda esta sofisticada experiencia del mundo. La
+                consciencia tiene que ser la cosa que hace el trabajo sencillo para los replicadores –máquinas biológicas que generan copias de sí mismas–, en términos de
+                percepción. <br><br>
+                <span style="font-weight: bold;">Percibir es representar; percibir es diseñar. La realidad como una interface:</span><br>
+                Tomemos un vistazo a nuestra fenomenología humana, me refiero a la
+                manera en que se siente ser un humano, sin explicaciones adicionales de ningún tipo, tan solo notemos la “simplicidad” de ser un humano en un nivel básico,
+                sin tomar en cuenta que de acuerdo a la biología somos gigantescas, y complejas
+                máquinas hechas de trillones de criaturas replicantes diminutas cooperando
+                incansablemente -celulas-. Sin embargo, nosotros no estamos explícitamente al tanto de ese
+                “universo subyacente” ocurriendo, no somos conscientes de ello.<br> Nuestra
+                experiencia del cuerpo no incluye todo eso. Prueba de que estamos en realidad
+                habitando un modelo del mundo, más no el mundo en sí mismo. Pensemos
+                en ello como una interfaz de videojuego, cuando muevo mi mano fenoménica la
+                sensación implicada es sencilla y fluida, puedo hacerlo sin siquiera pensar en ello,
+                pero sin embargo la experiencia no incluye las millones de operaciones de células
+                musculares, nervios y procesos que supuestamente se ven involucrados en la
+                acción de mover una mano. Lo que implica que solo tengo acceso a un
+                “avatar-sensorial” bien definido y delimitado. Esto a su vez significa que mi
+                modelo fenoménico del cuerpo está sincronizado con el inmenso cuerpo físico al
+                que no tengo acceso directamente. Permitiéndonos guiar las acciones del cuerpo
+                físico, aunque de manera indirecta. <br> <br>
+                Por un lado tenemos al modelo del mundo que representa, y por el otro, a un
+                inimaginable-complejo mundo físico que es representado. En resumen, el cerebro utiliza una sofisticada representación para mantener un comportamiento coordinado y unificado del resto del organismo. <br>
+                Podríamos pensar en nuestra existencia entera como la manera en que una
+                sofisticada maquina-biológica &#8212;es decir, el cerebro&#8212; efectúa exóticas operaciones
+                computacionales con la finalidad de entender su entorno, y asegurar su propia
+                supervivencia, y replicarse, sin necesariamente preocuparse por el “bienestar” de
+                la cosa con la que está implementando dichas operaciones computacionales, la
+                consciencia. &#8212;Nuestra existencia es un aspecto del cerebro&#8212;. 
+                <br>
+                <br>
+                <span style="font-weight: bold;">Valencia:</span> 
+                <br>
+                El valor emocional de la experiencia es conocido por la comunidad de Qualia
+                Research Institute como “Valencia”, y es en esencia el parámetro hedónico de
+                nuestra simulación del mundo. Para ilustrarlo mejor, podríamos pensar en esta
+                como análoga a la temperatura. El cerebro modula esta “temperatura emocional”
+                todo el tiempo, para crear los adecuados cambios atmosféricos dentro del modelo,
+                es decir, dentro de nuestra experiencia. Si el organismo entero se ve en peligro, o
+                bajo alguna clase de lesión que ponga en riesgo su supervivencia, entonces nuestra
+                simulación del mundo se pinta de valencia negativa &#8212;dolor&#8212;. De manera opuesta,
+                si el organismo se encuentra seguro, y satisfecho la experiencia se torna placentera
+                &#8212;valencia positiva&#8212;. Nosotros como criaturas que habitan este modelo parece
+                bastante obvio. Nos encontramos a la merced de esta elegante “matrix
+                psico-afectiva” que nos envuelve.
+                
+                </p>
+
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-1.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-2" style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-2.html">2</a>
+        <a class="number-3" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-3.html">3</a>
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-3.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

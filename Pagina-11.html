@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .fourteenth-topic, .fifteenth-topic, .sixtheenth-topic {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    .neuronal-radiation {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover, .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-7, .number-8  {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p>
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-11.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-11.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+    <br>
+    <p class="first-part">&#8212;<span style="background-color: rgba(218, 139, 227, 0.35); font-style: italic; margin-left: 10px;"> TERCERA PARTE:</span> Modelos teóricos y conceptuales; explicados a
+        grandes rasgos…
+        &nbsp; 
+        <h2 class="capitulo-primero">Capitulo VI</h2>
+        <p>Los contenidos de nuestra experiencia expresan el comportamiento de ondas no
+            lineales interactuando, y dando lugar a estas principales dinámicas conocidas como
+            resonancia y armónicos derivados. Casi todo en nuestras mentes puede ser
+            entendido con este modelo. El hecho de que nuestra fenomenología se comporta
+            como un todo y que existe una obvia interconectividad entre todas las partes que la
+            integran, es suficiente para relacionar a la consciencia con el comportamiento
+            “holístico” de un campo físico…
+            </p>
+            <br>
+            <p class="fourteenth-topic"> 
+                “Nuestra experiencia visual como un diorama volumétrico
+                    representando estímulos bidimensionales de la retina; <span style="color: rgb(37, 155, 141);">Teoria de la
+                    resonancia & armónicos</span>; Segunda parte: La investigación de Steven
+                    Lehar”
+            </p>
+    
+            <p>El fenómeno de las alucinaciones y sueños demuestran la innata capacidad del
+                cerebro para construir vividas estructuras de la experiencia, tales como completos
+                mundos volumétricos. El fenómeno de la resonancia se puede encontrar en todas
+                partes cuando se estudian las características de la fenomenología humana; no es
+                coincidencia considerarla como uno de los principios fundamentales en que
+                nuestra experiencia es renderizada. La resonancia de ondas estacionarias aparece
+                un sinnúmero de veces a lo largo del reino animal, tal y como los increíbles y
+                diversos patrones vistos en las pieles de varios animales, especialmente mamíferos
+                e insectos. La estructura y fisiología del cerebro indica también la existencia de este
+                fenómeno continuamente sucediendo en él.<br>
+                Estados de la mente inducidos por intoxicación de drogas como psicodélicos, estados profundos de meditación, sueños, e incluso sutiles detalles en nuestra experiencia cotidiana señalan la existencia de resonancia efectuada por ondas
+                rebotando unas con las otras, a través de un medio completamente tridimensional.
+                Steven Lehar, como un psiconauta racional, explica la cualidad de profundidad en
+                nuestras experiencias volumétricas similares a dioramas bajo los lentes de la
+                resonancia, reflejándose de manera directa en las propiedades de nuestra
+                experiencia del mundo. Explicando ilusiones ópticas como las imágenes
+                gestálticas, y como el cerebro es capaz de encontrar la más simple interpretación
+                en base a un amplio repertorio de alternativas casi instantáneamente, cuando
+                ningúna otra computadora (al menos creada por el hombre) puede instanciar esa
+                clase de operaciones. Ello como signo de que el cerebro utiliza este principio como
+                una función de bajo rendimiento, lo que significa que se da de manera natural en el
+                cerebro. Como he mencionado anteriormente, debemos ahora pensar en las
+                neuronas como pequeñas antenas emitiendo radiación útil a través del espacio, en
+                lugar de simples y estrechos puentes intercambiando paquetes de información
+                (doctrina neuronal). Esto hace que nuestro modelo del cerebro encaje mejor con
+                nuestras observaciones fenomenológicas. Entonces, en esencia, son esas ondas
+                viajando e interactuando con otras entre las neuronas lo que realmente
+                corresponde con nuestra fenomenología, con nuestras experiencias conscientes.
+                Andrés (el gestor del Instituto de investigación de la Qualia), menciona que estas
+                ondas bombardean el campo electromagnético, y excitan valores de qualia. Lo que
+                levanta especulación a la posible correlación de la qualia, con distorsiones en el
+                campo electromagnético &#8212;Coherente con la teoría electromagnética de la
+                consciencia&#8212;.
+                </p>
+                
+                <img class="neuronal-radiation" src="imagenes para el sitio/Neuron as an antenna.png">
+    
+                <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">*Radiación neuronal…*</p>
+                <br>
+                <p>
+                    Steven Lehar propone que lo que hace a una experiencia estar unificada o no, es
+                    determinado por estas ondas estacionarias que se vuelven resonantes unas con las
+                    otras, entonces, este principio garantiza de antemano unidad funcional en un
+                    sistema, pero parece ser únicamente factible con algo que Andrés denomina “unión
+                    local”, y es esencialmente la causa por la cual los colores aparecen unidos a los
+                    objetos. Siendo la principal razón por la cual en nuestra experiencia algunas
+                    cualidades se presentan juntas, tal y como la mencionada anteriormente, color y
+                    forma, dando lugar a un modelo coherente de aquello que se busca representar. Por
+                    ello, lo que se está diciendo es que la resonancia es capaz de explicar el “problema
+                    de unión local”, pero no el “problema de unión global”, el cual se refiere a la
+                    cuestión de cómo las características de nuestra fenomenología pueden coexistir en
+                    una misma experiencia simultáneamente, cuando se supone que cada modalidad de
+                    la experiencia es renderizada en regiones diferentes y distribuidas a lo largo del
+                    cerebro, ¿como hacen un montón de átomos supuestamente individuales, para dar
+                    origen a una experiencia unificada y simultánea? Entonces, su sugerencia para
+                    resolverlo es a través de segmentación topológica en un campo.
+                    <br><br>
+                    <p class="fifteenth-topic">
+                        <span style="font-weight: bold;">Bolsillos topológicos; ¿Los orígenes de la individualidad?:</span>
+                    </p>
+                </p>
+                <p>
+                    Esto significa que nuestras experiencias individuales son literalmente bolsillos
+                    creados dentro de un campo físico. El inmenso campo
+                    subyacente de qualia correlacionado con un campo físico, se segmenta en partes
+                    separadas, dando lugar a…en un sentido, a nuevas entidades, correlacionadas con
+                    experiencias individuales. Andrés también menciona que el campo cerrado es capaz
+                    de contener energía atrapada en su interior, dándole la capacidad de hacer vibrar su
+                    estructura, con ello se obtiene algo conocido como sus modos de resonancia, lo que
+                    te permite hacer que el bolsillo se comporte como una unidad, y la evolución estaba
+                    en busca de algo así. La computación holística resulta ser una opción eficiente y
+                    baja en costo, en términos de recursos y energía…Lo que explicaría el porqué a
+                    nuestro cerebro le resulta tan sencillo construir nuestra experiencia. Entonces, la
+                    consciencia podría pensarse como algo útil con lo que puedes instanciar procesos, y
+                    no viceversa; con lo que puedes efectuar operaciones computacionales, debido a
+                    sus útiles e intrínsecas propiedades para implementar sistemas inteligentes.
+                    Entonces, cuando hablamos de consciencia, en realidad nos referimos a un campo
+                    de la física, precisamente al campo electromagnético, porque es el medio que
+                    permite todas estas elegantes estructuras vibracionales -ondas-, las cuales
+                    corresponden con los contenidos de nuestras experiencias. Entonces, la
+                    consciencia se encuentra en el 3er nivel del análisis de Mar’s; el nivel de
+                    implementación. Consecuentemente, un algoritmo o operación computacional
+                    puede ser consciente o no, dependiendo de cómo este se implemente, por ende no
+                    podemos confiar solo en los "inputs" y "outputs" de una máquina porque
+                    esencialmente existen un sinnúmero de maneras en las cuales puedes efectuar
+                    operaciones computacionales, cada una diferente de otra, pero que pueden
+                    terminar generando el mismo resultado o comportamiento en un nivel superficial.<br>
+                    Tal vez sea posible construir un robot que imite el comportamiento humano, pero
+                    no podría ser sintiente, careciendo de la presencia de alguna especie de “película
+                    interna”. Ya que no contaría con la propiedad holística de un campo, atribuido a la
+                    unidad de nuestras experiencias. Además de que tal hazaña, con computación tradicional -digital-, sería terriblemente costoso y complicado de realizar.
+                    Nuestros cerebros, tan solo con la energía extraída de una papa puede efectuar complejas simulaciones
+                    del mundo, básicamente nuestra existencia entera! El cerebro no sería capaz de
+                    hacer el mismo trabajo sin las propiedades útiles de la consciencia, como he
+                    mencionado recientemente, tiene que haber una razón, en términos de energía
+                    mínima, por la cual la consciencia es óptima para efectuar operaciones
+                    relacionadas con la percepción; si la consciencia no fuera ventajosa, no estaríamos
+                    aquí en primer lugar. La evolución es realmente buena resolviendo rompecabezas,
+                    claramente la consciencia debe ser la mejor manera de implementar un modelo del
+                    entorno.<br>
+                    Entonces, en conclusión, lo que está sucediendo es que el cerebro está básicamente
+                    “pellizcando” el campo electromagnético para dar lugar a nuestras experiencias
+                    individuales, y consecuentemente usar sus propiedades holísticas.</p>
+    
+                    <br><br>
+                    <p class="sixtheenth-topic" style="font-weight: bold;">
+                        Intentando responder la pregunta: “<span style="color: rgb(177, 88, 88);">¿Somos cerebros?</span>, o, <span style="color: rgb(146, 51, 116)">¿tenemos
+                        cerebros?:</span>”
+    
+                    </p>
+    
+                    <p style="margin-bottom: 20px;">
+                        Andrés, ha descrito un concepto interesante llamado “potenciales locales de
+                        campo”, y están estrechamente relacionados con el papel que cumple la
+                        consciencia en el cerebro. Bajo esta clase de observaciones, en base a lo
+                        mencionado en anteriores notas, podemos concluir que nuestra fenomenología
+                        cuenta con un poder causal dentro de nuestros cerebros, y es capaz de alterar la
+                        misma estructura física del cerebro (plasticidad neuronal). No cabe duda de que
+                        nuestras experiencias conscientes tienen una influencia directa en el
+                        comportamiento que externaliza nuestro cerebro. Entonces, por ello la consciencia
+                        no puede ser un epifenómeno de ninguna manera.
+                        Pondré una analogía, piensa en la estructura del cerebro como la forma de un río,
+                        delimitada por rocas, tierra, arena y demás, que consecuentemente determina
+                        como el agua fluye y se mueve (con el agua me refiero a la consciencia), pero
+                        también el flujo del agua puede gradualmente cambiar la forma misma del río, por
+                        lo que existe una influencia recíproca por parte de ambas partes. Existe una
+                        constante retroalimentación entre la consciencia (el campo electromagnético) y la
+                        estructura del cerebro. Los contenidos de nuestra experiencia poseen una
+                        estructura con poder de interacción.
+                        Por esa razón, sería correcto decir “tengo un cerebro” en lugar de “soy un
+                        cerebro”, y es algo extremadamente extraño, porque pienso que los seres humanos
+                        hemos estado sospechando esto a tientas (quizá a través de observaciones
+                        fenomenológicas) por un largo tiempo, desde que empezamos a ser racionales,
+                        parece ser una idea que se repite con frecuencia en todas las culturas, y religiones
+                        de la historia humana. Básicamente, podría ser la principal razón implícita por la
+                        cual pensamos que tenemos almas; que somos otra “raza” de entidades etéreas
+                        habitando los sacos de carne que vemos todos los días en el espejo, me refiero a esa
+                        clase de introspecciones trascendentes que los humanos suelen tener. El extraño
+                        sentimiento de disociación, o abandonar el cuerpo, podrían ser clave de implícitos
+                        signos de que en realidad somos entidades de naturaleza independiente.</p>
+    
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%; margin-right: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-10.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-9"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-10"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+        <a class="number-11"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-left: 5%; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Referencias.html">Ref.&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

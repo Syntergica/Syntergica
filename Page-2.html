@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .third-topic {
+        color: rgba(162, 68, 186, 0.962);
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 20px;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .another-sketch {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 450px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7, .number-6, .number-5 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-1.html">I</a><a class="Capitulo-II" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="References.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-2.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-2.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+
+        <h2 class="capitulo-primero"></h2>
+<p class="third-topic">
+    Indirect realism; Is my head in the world or is the world in my
+        head?:
+</p>
+
+<p>According to this model, the experience of
+    the world we have is actually a miniature model taking place within the limits of our own brains. In such a way, everyone has its own private-representation of the genuine environment; we live inside our heads all the time. This current of thought is called
+    Indirect realism or representationalism, and it explains a lot of things that direct
+    realism can not, such as dreams: The fact that we can have an entire world
+    experience evolving while we are not receptive to the external stimuli, I mean, during sleep,
+    reveals the innate capacity of the brain to generate world experiences. Indirect
+    realism also explains easily the phenomenon of hallucinations, and exotic states of
+    consciousness, suggesting that an alteration in the brain’s activity has direct
+    reactions in the parameters of our “world model”, that implies all of those bizarre
+    and stunning things that someone can experience in those mind-conditions. There
+    are reports in which some people swear to have experienced states of mind that felt
+    more vivid than consensual reality itself… What is quite fascinating about this is
+    that it demonstrates that consciousness doesn’t have anything to do with
+    behaviorism. So, what I mean is that we can perfectly have entire vivid experiences
+    without showing external signs of behavior, or reaction. At least on a superficial
+    level.
+    <br>
+    Dreams, as also effects induced by drug intoxication such as Salvinorum-A, or
+DMT illustrate easily my point. Human beings are capable of experiencing entirely
+hallucinated events, and not showing any kind of sign about it. Honestly, I find it
+quite disturbing the fact that someone can be having the most intense,
+overwhelming, and meaningful experience of their entire life while lying down on
+the floor without moving at all.
+ <br>
+ Even in our current lives, we are not even capable of having any idea of the internal
+states of other human beings, certainly not we would be able to know if other forms of life, such as animals, have an "internal movie".<br>
+We cannot even disprove the idea of inverted qualia; this concept refers to the
+incapacity of knowing if all people are indeed sharing the same kind of qualia
+within their private world models. I cannot know if someone is experiencing the
+same qualia as I do when we both agree about a “fact” from the “external world”. I
+cannot be sure if someone shares with me the same color “red”, for example. This
+is not just related to color, but it can also be extrapolated to more types of qualia; a
+well-known phenomenon that illustrates this is synesthesia, consisting in that
+some people can experience sound instead of color, and vice-versa, colors instead
+of scents, others can even experience flavors evoked by certain words or semantic
+content. And they can easily pass inadvertently among social groups. A less
+awesome phenomenon is color blindness, which consists in seeing colors with
+certain variability… This clearly shows the arbitrary principle that determines the
+qualia we experience. As Andrés Goméz has said in some of his papers, any kind of
+qualia can represent any kind of stimuli, so, this is clear evidence that qualia values are used &#8212;by the brain&#8212;
+to simulate aspects of the external world. So, according to representalism, there’s qualia that is more
+advantageous to represent specific kinds of stimuli, hence there’s a deep-good
+reason why visual qualia is used by the brain to represent electromagnetic waves
+stimuli, rather than any other type of qualia; it’s not something incidental.
+So, with all of these understood, we can argue that our common everyday-life
+experiences of the world are guided-coherent hallucinations unfolding in a sophisticated way, because our brains are constantly making the right
+atmospheric changes in our experience according to the uninterrupted flux of sense data that it is
+receiving from the external world. The process that involves all of this
+is not understood completely yet, but multiple scientific communities are making a
+lot of progress on this, such as Qualia Research Institute, on which model I’m
+basing to make philosophical insightful implications, so, I’ll be quoting the sources
+of their web-page (qualia-computing) if it is necessary.
+<br>
+Well, keeping going with this stuff, if we analyze our phenomenology, we would
+quickly conclude that it is impressive that a biological machine can build all of this. In
+an ordinary state of consciousness, the stuff that furnishes our experience express a well-defined and functional design &#8212;it seems that the brain is doing a fantastic
+job, in the end&#8212;, all the parts are cohesive with one another, giving rise to
+significant objects of experience, the different modalities or families of qualia that
+co-exist in our experience don’t seem interrupted, or collapsed by themselves, all
+parts are simply trying to do their best to contribute to a coherent, accurate, stable
+and efficient representation of the environment. A sufficiently complex model with
+a huge range of possible configurations is in the end intelligent by itself, because it
+has a well-explored repertoire of possible dynamics or solutions to ensure its
+goals. "Organizing self principles”.
+    </p>
+    <img class="another-sketch" src="imagenes para el sitio/another sketch.png">
+    <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Artistic representation that illustrates the main premise of indirect
+        realism. <br><span style="font-weight: bold;">Author:</span> Aarón T. M.</p>
+        <br> <br>
+    <p class="Fourth-topic">Why are we conscious? Seen from an evolutionary standpoint; the
+        useful properties of consciousness…</p>
+        <p>But, wait a minute, why is it like that? The sophisticated structure of our
+            experience has to have a deep history behind it or reasons to be this complex,
+            right? Well, indeed, there’s a reason why this extravagant cosmic theater is
+            happening, in the way it does, right now in front of “us” all the time, and it is
+            called the “Darwinian principle”, well-known as natural selection, and if you
+            haven’t noticed yet, the semantic content of our experiences are about creatures
+            that want to survive and replicate, well, I hope don’t confuse you, but with the veil
+            of familiarity I’m referring to us, humans. Roughly speaking, we’re in the end
+            organic creatures looking for safety and survival, reproducing and handing over
+            our genes to the next generation, this is the classical chain of evolution that we’re
+            in. So, our consciousness has been evolving too. Along with all of this biological
+            machinery, constantly improving itself, and increasing in complexity, it has to be
+            that way to ensure the safety of the whole organism. What I mean is that our
+            experience is this high-complicated because it is required to be like that.<br>
+            Perception is a main rule in evolution, knowing our surrounding may imply the capacity of recognizing the contexts in which we are, and therefore acting as a consequence to modify our posibilities of keep existing as biological machines. Perceiving is actually representing, as I have said on other
+            occasions, perceiving is creating a model, otherwise, how could you make a piece of
+            meat understand or know what is happening around it? How do you put “light”
+            inside a brain to make it “see”? Electromagnetic waves don't enter the brain in the
+            same way that rays of sunlight enter through your window. You need information
+            processing for that; basically, an intelligent model of the world happening inside,
+            able to solve problems and send an input back to the rest of the system, and evoke a
+            coherent reaction to the current situation. And we’re basically in that all the time,
+            so, in essence, being a human means to be this sophisticated world-simulation &#8212;a
+            frequently used term referring to the representation generated by the brain;
+            associated with our world’s experience&#8212; permeated with a wide variety of qualia,
+            also in the form of emotional values such as pleasure and pain. Being human
+            means literally being the colors, the shapes, the sounds, the people, and the world,
+            not just the stuff we associate with the semantic self that fits with our
+            proprioceptive and kinesthetic “avatar”, the feeling of having a body in simple
+            terms. Your mind encompasses all that you possibly experience and know, even
+            your model about how the world works. We all have our own private world simulation running on
+            simultaneously; so we can organize ourselves and act according to other’s world
+            simulations. So, returning to the main question, why does this model be
+            implemented with sentience? Why does evolution bother to make us conscious?
+            We’re having a vivid, complex, multimodal, and unified experience right now,
+            which means that evolution bothered to make some “programming” implemented
+            with qualia due to its possible useful computational properties starting with. If
+            consciousness were something merely incidental, would be contradictory to the
+            fact that our experience of the world is smooth, structured, and filled with a wide
+            variety of qualia, as we evidently experience it.
+            <br>
+            </p>
+            <p style="font-weight: bold;"><span style="font-weight: bolder; font-size: larger; margin-left: 10px;">&bull;</span> “So, evolution was not just the improvement of organic machines, but also
+                a long experimentation with consciousness, due to its advantageous
+                computational properties”.</p>
+                <br>
+            <p style="margin-bottom: 20px;">Disregarding the people who think that consciousness is an epiphenomenal thing,
+                meaning that it has no causal power, I consider that they’re denying everything,
+                even themselves.
+                <br>
+                I think this is because they usually examine the topic of consciousness through the
+lens of naive realism, or even from a kind of semi-indirect realism. They may think
+that the representation just involves some colors and bodily sensations, so aren’t
+really aware that actually consciousness envelops quite everything we experience,
+such as the external world, our interactions with other people, our knowledge,
+etcetera. But come on, if consciousness was really a secondary side-effect with no
+longer causal power, how is it even possible that we can talk about it, that we can
+create models of it, or be obsessed with their flavors and textures?, colors, sounds,
+bodily sensations, and so on. Without disregarding the fact that the language we
+use on a daily basis exists for the sake of reference aspects of our conscious
+experience of the world. We can recognize the intrinsic quality and value of qualia,
+such as in the case of pleasure and pain. All of our civilization is based on these
+qualia values, it is evident.<br>
+Our conscious experience clearly has an influence on our actions, and decisions. As
+I mentioned before, we act according to qualia such as pleasure and pain.
+We built up our whole civilization according to that parameter, so, I consider
+epiphenomenalism as pure nonsense. Everything is made of qualia, don’t you see?
+So, we can conclude and reduce to some extent that consciousness is something
+that has obvious useful properties &#8212;causal power&#8212; because if it hasn’t we wouldn’t
+be here in the first place. Consciousness has to be the thing that makes the work
+easy for replicators &#8212;biological machines that generate copies of themselves&#8212;, in
+terms of perception.<br><br>
+<span style="font-weight: bold; width: 855px;">Perceive is represent; perceive is design. Reality as an interface:</span> <br>
+Let's take a look at our human phenomenology for a moment, I’m referring to how
+being a human feels like, without any kind of additional explanations, and
+then notice the “simplicity” of being a human at a basic level, even though according to
+biology we’re huge complex biological machines made of trillions of
+micro-replicating critters cooperating tirelessly, but we are not explicitly aware of
+that “underlying universe” happening, we’re not conscious of it. Our experience of
+the body doesn’t include all of that stuff. Proof that we’re inhabiting a model of the
+world, not the world itself. Think of it like a video game interface, when I move my phenomenal hand the implied sensation is straightforward and
+smooth, I can do it without thinking about it, though the experience doesn’t
+include the millions of operations of muscle cells, nerves, and processes that
+supposedly involve the action of moving a hand. Which implies that we only have
+access to a well-defined and delimited “sensorial avatar, or representation”. This
+means that our phenomenal model of the body is synchronized with the huge
+physical body which I don’t have direct access to.<br>
+By one hand we have the model of the world that represents, and by the other, an
+unimaginable-complex physical world that is being represented. In summary, the brain uses a sophisticated representation to maintain a coordinated and unified behavior of the rest of the organism.
+We could think of our entire existence as merely the way in which a sophisticated
+biological machine performs exotic computational operations in order to
+understand its environment, in such a way that it can ensure its own survival and
+replicate, without necessarily worrying about the “wellness” of the thing with
+which it’s implementing those computations, which is consciousness. &#8212;Our existence is an aspect of the brain&#8212;.
+
+                <br>
+                <br>
+                <span style="font-weight: bold;">Valence:</span> 
+                <br>
+                The emotional value of experience is known by the Qualia Research Institute
+community as “Valence”, and it is in essence the hedonic parameter of our world
+simulation. To illustrate it better, we could think of valence as analogous to
+temperature. The brain is modulating the “emotional temperature” all the time, in
+order to make the perfect atmospheric changes within the model, I mean, within
+our experience of the world. In terms of survival. If the entire organism is in
+danger, or injured &#8212;which can affect its survival&#8212;, then our world simulation starts
+to paint itself with negative valence (pain). Therefore in the opposite way, if the
+organism is safe, and satisfied the experience becomes pleasant &#8212;positive
+valence&#8212;. So, as these little creatures that inhabit the model, it seems quite
+obvious. We’re at the mercy of this fancy psycho-affective matrix that envelops us.
+
+                
+                </p>
+
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-1.html">&laquo;Previous</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+
+        <a class="number-2" style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-2.html">2</a>
+        <a class="number-3" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-3.html">3</a>
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-9.html">9</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-3.html">Next&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

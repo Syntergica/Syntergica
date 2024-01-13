@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Seventh-topic {
+        color: rgb(79, 160, 151);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Fourth-topic {
+        color: rgb(77, 109, 148);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .world-simulation {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="References.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-5.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-5.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+        <h2 class="capitulo-primero"></h2>
+        <p style="margin-top: 20px;"> The features we experience such as phenomenal light, phenomenal color,
+            phenomenal shapes, and phenomenal sounds, even phenomenal time!, only exist
+            as attributes of our own world simulation, which also would explain the famous
+            philosophical dilemma of “If a tree falls in a forest” &#8212;”If a tree falls in a forest, and
+            there’s nobody around to hear it, does it make a sound?”&#8212;. We can argue that
+            sound (just as we experience it) only can subsist inside our world simulation.
+            Within our minds. <span style="background-color: rgba(165, 196, 145, 0.695)">Phenomenal sound</span> and <span style="background-color: rgba(241, 169, 152, 0.692)">physical sound</span>, or, <span style="background-color: rgba(165, 196, 145, 0.695)">the representation</span> and <span style="background-color: rgba(241, 169, 152, 0.692)"> the thing represented</span> are too different in nature in the end. As you may know,
+            we can agree with others because we’re representing the same stuff, not perfectly,
+            obviously, but with enough accuracy to function, so the fact that all of us have our
+            own private world representations makes it easy for us to organize.
+              <br>
+              As Andrés had written throughout the website of qualia-computing, our world
+              simulation encompasses more than we think it does. Some people may think that
+              are just some colors, and bodily sensations, but it is quite everything, all we
+              experience and know is part of the representation. It envelops above all our model
+              of how things work, how we conceive our bodies, our minds, the entire planet,
+              nations, and societies we’re aware of, the passing of time, historic events, and our
+              expectations about the future of humanity. It also includes the inner layers of this
+              planet, outer space, and whole galaxies. In other words, our model of the world
+              includes both sensory percepts, and the ideas/meaning associated with them. Even
+              more subtle details are enveloped by our world simulation, stuff which we have not
+              even an explicit internal representation of, perhaps we experience them usually, so
+              we’re aware of, but we don’t pay enough attention to it in order to incentivize
+              ourselves to think on it, therefore it doesn’t form part of our conceptual scheme,
+              thus we can’t talk about it with others because we don’t have any kind of reference. <br>
+              One example of it is something known as a-modal percepts, introduced by Steven
+              Lehar, and are basically the parts of our visual field that are not explicitly visible,
+              because in some cases something is occluding them, but we still including the
+              missing part of those occluded objects, we’re aware about the rest of the object
+              without seeing it directly, so we can have a complete volumetric representation of
+              the environment that integrate implicit information. With all of these
+              understood, we’ll notice how the contents of our phenomenology (world
+              simulation) have a lot of layers. In the most wholehearted levels of it, there’s also a
+              kind of impersonal force that rules our world simulation, and it’s smart, because it
+              basically embodies the general intelligence of our entire world simulation. It's not
+              our ego, it is nor the sensory avatar we use to identify with; our egos can be
+              thought of as a mere mask of this force. Some people usually name it as
+              “the subconscious mind”, “the true self”, or “superego”, Andrés calls it as “the
+              meta-self programmer”, and in simple terms, refers to the dynamics of emotional
+              gradients which determines what is important and what is not, within our
+              experience. It is present in every single human, and is kind of the predetermined
+              authority that guides our world simulation. Evolution put it there as the main
+              administrator of our world simulation, if you want to see it like that. It also knows
+              more than you explicitly think, but don’t be afraid, its unique purpose is basically
+              to make sense of all what’s happening, and ensure your safety in the end. On some
+              exotic occasions, such as near death experiences, or exotic states of consciousness,
+              it can manifest itself as a little chat with “God”. But that’s another topic that I
+              won’t dive into, I leave it to your discretion.
+               <br>
+            <span style="font-weight: bold;">&ndash;Briefly annotation: “The mysteries of the meta-internal representation
+                layer”: </span> I mentioned once that the meta-internal representation layer of our
+                minds, which produces stuff such as mental images, and it can be described
+                as a weird imitation, or unrestricted photo-realistic simulation of the
+                sensorial “external”-world… Visual qualia, auditive qualia, scent, and flavor
+                qualia can present themselves in our imagination or memory, but in a quite
+                phantasmagoric phenomenal character; they merely feel less real than real
+                if you want to put it that way. The amount of qualia is much lower in that
+                layer. Same as ordinary dreams, they feel like the “echo” of the real world,
+                right? As an example, when someone intoxicates himself with psychedelics,
+                what he’s doing is basically energizing his world simulation, therefore the
+                amount of consciousness seems drastically increased, and I would say that
+                indeed the meta-internal representation layer is the one that gets more
+                affected by this. It literally becomes stronger, giving place to incredible
+                phenomena such as highly vivid internal hallucinations manifested in a
+                huge variety of qualia, even exotic qualia, which in this kind of conditions
+                can be experienced as real as we experience stuff in consensual reality. So,
+                my point here is that there has to be a defined region in the brain
+                responsible for this, that can use multiple modalities of qualia without
+                directly appealing to the visual cortex, and the other regions we think are
+                forcibly linked with certain types of qualia. Otherwise, there should be an
+                internal meta-representation generator for each of the sensory cortex
+                regions.
+        </p>
+     <img class="world-simulation" src="imagenes para el sitio/The layers of our world simulation.png">
+     <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Depiction of the main layers that make up our world simulation.
+        The girl of green skin, and blond hair, exemplifies and illustrates a well-known
+        archetype attributed to qualities such as fertility, life, and the love for natural
+        environments, which commonly is represented through an entity that receives the name
+        of “mother nature” &#8212;Subagent&#8212;. <span style="font-weight: bold;">Author:</span> Aarón T. M.
+        </p>
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-4.html">&laquo;Previous</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-4.html">4</a>
+        <a class="number-5"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-8.html">8</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-9.html">9</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-10.html">10</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Page-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Page-6.html">Next&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    
+}
+html {
+    line-height: 1.2;
+    color: #333333
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .Eleventh-topic {
+        color: rgba(31, 30, 30, 0.985);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Twelfth-topic {
+        color: rgba(31, 30, 30, 0.985);
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    .symmetry {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 700px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover , .number-9:hover, .number-10:hover, .number-11:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-4, .number-5, .number-6, .number-10, .number-11  {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="display: inline-block; cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: auto; color: blue; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-9.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-9.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+        <h2 class="capitulo-primero"></h2>
+        <p class="Twelfth-topic"> 
+            <span>El comportamiento humano, y el funcionamiento interno:
+                </span>
+        </p>
+
+        <p>
+            La manera en que nuestra mente opera se ve directamente manifestada en nuestro
+            comportamiento superficial. Como he mencionado en anteriores ocasiones, el
+            cuerpo que experimentamos es en realidad una réplica del cuerpo físico, no el
+            cuerpo físico per se. Esta representación viene incorporada a una representación
+            mayor, la cual corresponde con el entorno. Este modelo del cuerpo parece estar
+            sincronizado con el “genuino” cuerpo físico, teniendo una influencia directa sobre
+            este. En otras palabras, cada acción que el avatar sensorial llevé a cabo dentro del
+            cerebro, se verá directamente reflejado en la acción impartida por el cuerpo físico.
+            Cada extensión de este homúnculo sensorial, manos, pies, brazos, cabeza, están
+            igualmente sincronizados con las partes correspondientes del enorme cuerpo
+            físico. El cerebro utiliza este modelo para mantener un comportamiento unificado
+            del cuerpo.<br>
+            <span style="font-weight: bold;">Dato adicional:</span> Cuando las regiones corticales asociadas con este modelo interno
+            se ven afectadas por lesiones, o enfermedades neurológicas, el sujeto puede llegar a
+            experimentar una distorsión considerable (según sea el caso) en su experiencia
+            consciente del cuerpo, que van desde vividas y convincentes alucinaciones,
+            movimientos consistentes pero involuntarios o inconscientes, e incluso la
+            desaparición parcial o total de la experiencia consciente de tener un cuerpo.
+            Steven Lehar, a largo de sus ensayos, describe que dentro de nuestra experiencia
+            ordinaria del mundo existen fuerzas que se comportan como campos, de atracción o repulsión, dependiendo del
+            caso, y de acuerdo con Steven Lehar es esto lo que en esencia dicta la manera en que
+            nuestros cuerpos fenoménicos se mueven a través de su ambiente simulado. Un
+            ejemplo de ello es la gravedad, la manera en que nuestra representación del mundo
+            simula la gravedad física es generando un campo de fuerza dentro de nuestro
+            espacio fenoménico, el cual crea la sensación subjetiva de ser empujado hacía al
+            suelo. También, existen otra clase de campos fenoménicos, como aquellos basados
+            en gradientes de valencia, por ejemplo: Cuando algo que nos gusta se hace presente
+            en el mundo perceptual, esta fuerza se manifiesta a través de la sensación subjetiva de ser atraído hacía el objeto o situación. Existe como una especie de
+             fuerza sutil que brota alrededor del objeto de la experiencia, la cual nos incentiva a
+            acercarnos, también de manera opuesta, cuando algo no nos agrada aparece una
+            fuerza envolviendo el objeto que nos repele, que nos empuja. En este caso, estos
+            campos de “conveniencia” obviamente no existen en el mundo físico y externo,
+            pero podemos experimentarlos vívidamente y actuar acorde a ellos. Creando la
+            ilusión de que existe una especie de valor intrínseco en los objetos externos, pero
+            eso es solo un truco que la evolución elaboró para asegurar la supervivencia del
+            enorme organismo que envuelve nuestra simulación del mundo. Siguiendo este
+            razonamiento, notaremos que existe un sinnúmero de dinámicas y trucos que
+            ocurren dentro de nuestras mentes para impulsarnos a tomar decisiones. Algo que
+            Steven Lehar señala en múltiples ocasiones, lo cual es coherente con la teoría de
+            resonancia y armónicos, así como también la teoría simétrica de Valencia
+            postulada por Mike Jhonson (co-fundador del Instituto de Investigación de la
+            Qualia), es el fenómeno de la música, la danza, y los patrones simétricos que
+            acompañan todo lo que hemos creado, vistos en la ropa que usamos, en nuestros
+            muebles, en el arte, y la arquitectura, expresada en catedrales e iglesias, y demás.
+            Todo esto puede ser explicado, como he mencionado anteriormente, por el
+            funcionamiento interno de nuestros cerebros, la manera en que estos operan
+            determina todo lo que hacemos a nivel externo. Como sabrás, nuestra
+            fenomenología es renderizada y optimizada por ondas estacionarias colisionando,
+            y rebotando sobre otras, y la forma de esas ondas, incluyendo la manera en que
+            estas se propagan determina el tono hedónico, o emocional de nuestra experiencia
+            consciente, si el medio por el cual se transportan es coherente y simétrico,
+            moviéndose a través de él sin interrupciones, estas serán placenteras, pero si el
+            medio es irregular o asimétrico, entonces corresponderá con una valencia negativa,
+            dolor. Entonces, intrínsecamente, la simetría se siente genial, y puede
+            manifestarse de múltiples maneras. Si has experimentado en carne propia los
+            efectos de los psicodélicos, probablemente te habrás percatado de los
+            extraordinarios patrones simétricos que aparecen durante la experiencia, que de
+            acuerdo con QRI son manifestaciones de resonancia de ondas no-lineales,
+            irradiando su exceso de energía. Todo en nuestra simulación del mundo intenta
+            reducir tensiones (disonancia) y encontrar un equilibrio, lo que corresponde con un
+            estado mínimo de energía del sistema, lo que a su vez significa un flujo libre de
+            energía, simetría y coherencia. Entonces, existe una estrecha relación entre la
+            valencia positiva (placer) y que tan simétrico el sistema es. Por ello, estos patrones
+            simétricos se sienten bien debido al principio que gobierna nuestro modelo del
+            mundo. La música es simetría a través del tiempo, así que también cuenta. El ritmo,
+            los patrones periódicos, y la simetría, son propiedades de las ondas estacionarias
+            que funcionan como los ladrillos de nuestra experiencia del mundo, precisamente
+            de aquellas que se sienten bien…Desde que empezamos a utilizar herramientas, una
+            de las primeras cosas que hicimos con ellas fue experimentar con estas cualidades
+            de nuestras propias mentes, y como consecuencia proyectarlas en el mundo
+            externo. Entonces, en esencia, esa es la razón por la cual estamos tan obsesionados
+            con la música, la danza, y los patrones visuales que se repiten, no es una
+            coincidencia que los asociemos tanto con el tono emocional de nuestras vidas, lo
+            cual se ve siempre expresado en las obras de teatro, y películas que usamos como
+            fuente de entretenimiento.
+            
+        </p>
+        <img class="symmetry" src="imagenes para el sitio/maxresdefault.jpg">
+
+       <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Imagen sacada del canal de Youtube “Orbitian Media”. 360 video: Inside Milan
+        Cathedral , Milan, Italy. Simetría. Se ve bien, ¿no es así?...Catedral de Milán, Italia.
+    </p> 
+<br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-8.html">&laquo;Anterior</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+        <a class="number-9"  style="color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-9.html">9</a>
+        <a class="number-10"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">10</a>
+        <a class="number-11"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">11</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-10.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="reset.css">
+<title>Syntergica</title>
+<style>
+p, h3 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    font-size: 14px;
+}
+h2 {
+    font-size: large;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+   
+}
+html {
+    line-height: 1.2;
+    color: #333333
+    
+}
+.capitulo-primero {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: x-large
+
+    }
+    .first-topic {
+        color: rgb(236, 85, 110);
+        font-weight: bold;
+        font-size: medium;
+    }
+    .Qualia-concept {
+        background-color: rgba(232, 163, 204, 0.719);
+    }
+    .first-part {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .Second-topic {
+        color: rgb(36, 147, 36);
+        font-weight: bold;
+        font-size: medium;
+        margin-top: 25px;
+    }
+    .how-anatomy {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  -webkit-filter: drop-shadow(2px 2px 0 white)
+                drop-shadow(-2px 2px 0 white)
+                drop-shadow(2px -2px 0 white)
+                drop-shadow(-2px -2px 0 white);
+
+filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-2px 2px 0 white)
+        drop-shadow(2px -2px 0 white)
+        drop-shadow(-2px -2px 0 white);
+        
+
+       
+    }
+    
+    .anterior-siguiente {
+        display: flex;
+    }
+ 
+
+.siguiente, .Home {
+     display: inline-block;
+     cursor: pointer;
+     transition: 1s;
+    }
+    .siguiente:hover, .Home:hover {
+        text-decoration:underline; 
+        opacity: 0.6;
+    }
+    
+    .number-1:hover, .number-2:hover, .number-3:hover, .number-4:hover, .number-5:hover, .number-6:hover, .number-7:hover, .number-8:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+
+    }
+    .Capitulo-I:hover, .Capitulo-II:hover, .Capitulo-III:hover, .Capitulo-IV:hover, .Capitulo-V:hover, .Capitulo-VI:hover, .Referencias:hover {
+        text-decoration: underline;
+        opacity: 0.6;
+        color: blue;
+    }
+    .Capitulo-I, .Capitulo-II, .Capitulo-III, .Capitulo-IV, .Capitulo-V, .Capitulo-VI, .Referencias {
+        transition: 1.5s;
+    }
+    .titulo-mamalon {
+        font-size: 30px;
+        font-weight: bold 2%;
+        color: rgba(66, 74, 78, 0.931);
+        margin-top: 5px;
+        text-decoration: 2px underline;
+        text-align: center;
+        
+        }
+        .SYNTERGICA {
+font-size: x-large; 
+cursor: pointer;
+display: inline-block;
+font-family: 'Russo One', sans-serif;
+letter-spacing: 2px;
+color: rgb(49, 46, 46);
+text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
+
+
+    }
+    .SYNTERGICA:hover {
+     opacity: 0.8;
+    }
+    .SYNTERGICA:active {
+            transform: translateY(4px);
+    }
+    @media (max-width: 557px) {
+    .number-8, .number-7, .number-6, .number-5, .number-4 {
+        display: none;
+
+
+    }
+}
+.Capitulo-uno {
+    background-color: rgba(243, 240, 244, 0.967);
+    
+}
+.Primera-parte {
+        margin: 0 0 0 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-bottom: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+   
+    
+    }
+    .anterior-siguiente {
+        text-align: center;
+        margin: 0 0 0px 0;
+    background: #e2dce7f2;
+    padding: 10px 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    border-top: 1px solid #e4d2e2;
+    border-top: 1px solid #887383;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #887383;
+    }
+    .background-image {
+        background-image:url(https://i.ibb.co/grFW12n/a35806f2-28c6-461e-a709-5104a7486f08.png);
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    .español:hover, .english:hover {
+    text-decoration: underline;
+        opacity: 0.6;
+}
+.español, .english {
+    transition: 0.5s;
+}
+.ball {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 140px;
+  height: auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <p class="SYNTERGICA"><a href="index-español.html">SYNTERGICA.COM</a></p> 
+        </div>
+
+
+        <p style="margin-bottom: 20px;" class="titulo-mamalon">Una Moderna Ontología de la Consciencia</p>
+
+
+<div class="background-image">
+    <div class="Primera-parte" style="text-align: center; margin-left: auto; margin-right: auto;">
+    <a class="Capitulo-I" style="display: inline-block; cursor: auto; color: blue; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">I</a><a class="Capitulo-II" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">II</a><a class="Capitulo-III" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">III</a><a class="Capitulo-IV" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">IV</a><a class="Capitulo-V" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-10.html">V</a><a class="Capitulo-VI" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-11.html">VI</a><a class="Referencias" style="cursor: pointer; display: inline-block; font-size: large; margin-left: 3%; margin-right: 3%;" href="Referencias.html">Ref.</a>  
+    </div>
+<div class="Capitulo-uno">
+<br>
+<div class="introduction-square" style="display: flex; font-style: italic;">
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: left;"><a class="español" href="Pagina-1.html" style="cursor: auto; color: rgb(29, 110, 224); font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;">Español</a></div>
+    <div class="center" style="width: 100%;">&nbsp;</div>
+    <div style="width: auto; margin-left: 5%; margin-right: 5%; text-align: right;"><a class="english" href="Page-1.html" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;">English</a></div>
+
+
+</div>
+
+    <div class="image"> 
+            
+        <img class="ball" src="imagenes para el sitio/ball-2899626.png" style="">
+        <p class="name" style="text-align: center;">Aaron Tolentino Maqueda</p>
+    
+    </div>
+
+    <div class="container" style="display: flex; background-color: rgb(216, 230, 230); margin: 2%; border-radius: 10px; border-style:solid; border-width: 1px; padding: 1%;">
+    
+        <div class="addition" style="display: inline-block;"> 
+    
+            <p style="font-weight: bold; font-size: medium;">Breve introducción:</p>
+            <p style="">Esta ontología, la cual puede ser vista como una suma de escritos con un valor especulativo, intenta responder algunas preguntas fundamentales en relación a la naturaleza de la realidad. Explorando las implicaciones del conocimiento moderno, con respecto a la percepción, la fenomenología, y el cerebro. Esto es solo un proyecto de indole personal basado mayormente en mera especulación, y conjeturas filosoficas, por lo que no debería ser tomado demasiado en serio.</p>
+        </div>
+        
+    </div>
+    <p class="first-part">&#8212;<span style="background-color: rgba(218, 139, 227, 0.35); font-style: italic; margin-left: 10px;">PRIMERA PARTE:</span> Conceptos esenciales; los pilares de este modelo</p>
+        <h2 class="capitulo-primero">Capítulo I</h2>
+<p class="first-topic">
+    El concepto de Qualia, y fenomenología:
+</p>
+<p>
+    En el contexto de este modelo, la consciencia es definida en términos de experiencias, tal y como la experiencia de ver un árbol, de tomar una ducha fría, de soñar, de estar enamorado, o de escuchar musica. Todos estos ejemplos pueden ser pensados como pequeños fragmentos de la imagen completa que corresponde con nuestra experiencia humana &#8212;como la conocemos&#8212;; podríamos decir que las experiencias son los bloques fundamentales de aquello que concebimos como una “vida”. <br>
+Las experiencias existen de una manera elegante. Diferentes aspectos de la experiencia, tales como sonidos, sensaciones corporales, imágenes visuales, pensamientos y sentimientos, pueden entrelazarse para construir escenarios y objetos congruentes, brindándonos un sentido de la realidad. De tal manera que podemos obtener escenas completas llenas de una variedad de cosas, y características. Podemos argumentar que los contenidos de nuestras experiencias aparecen de manera estructurada. <br>
+Como he mencionado previamente, la experiencia lo envuelve todo, y es en esencia la fuente fundamental de todo conocimiento. Todos los estímulos que quedan atrapados por nuestra superficie sensorial aparecen como los contenidos de nuestras experiencias unificadas &#8212;“de lo que tratan las experiencias”&#8212;. Sin embargo, esta premisa no toma en consideración fenómenos tales como los sueños o las alucinaciones, los cuales no están asociados a estímulos externos, en otras palabras, no dependen de los sentidos para existir. Aún así, cada aspecto o fenomeno presente en nuestra experiencia posee una estructura. Nuestros cuerpos, nuestras mentes, nuestra noción del “yo”, y el entorno que vemos a nuestro alrededor, todo ello existen como sofisticadas estructuras de la experiencia. <br>
+Retomando la cuestión inicial, podemos pensar en la consciencia como aquello de lo que las experiencias están hechas. Lo cual corresponde con el más irreductible aspecto de las experiencias, que es el valor cualitativo e intrínseco de las mismas. Este concepto en realidad recibe su propio término, conocido como “qualia”. <br>
+Debido a la ambigüedad de la palabra “consciencia”, por el bien de evitar confusión en el lector, será reemplazado por el término qualia, el cual es más preciso. <br>
+…<span class="Qualia-concept">Qualia se refiere a la propiedad cualitativa e intrínseca de la experiencia</span> &#8212;es decir, la cualidad de la experiencia&#8212; como el dulzor de una manzana, la rojez del color rojo, la cualidad placentera del placer, lo “doloroso” del dolor, y todo lo que podemos en esencia experimentar. De la misma manera, nuestros pensamientos están hechos de qualia, porque existe una manera en que se siente tener pensamientos…En esencia, nuestra experiencia humana está escrita en términos de qualia. Es lo que nos hace ser sintientes. El placer y el dolor pueden ser pensados aquí como un parámetro de la qualia, podemos experimentarlos vívidamente, reconocemos su valor intrínseco, e inclusive algunas de nuestras acciones son lideradas por estas características hedónicas de la experiencia. Como mencioné anteriormente, podemos pensar en la qualia como la unidad irreductible de una escena consciente…El mundo que experimentamos alrededor nuestro está tapizado por estos valores cualitativos, los cuales vienen en una amplia gama de “matices”. Cada sensación y percepto "posee" una particular cualidad que lo distingue del resto. El hecho de que una gran diversidad de qualia pueda cohabitar dentro de una misma experiencia unificada sugiere que cada una de estas comparten algo en común. La realidad a la que tenemos acceso es una inmensa estructura dinámica, hecha de valores de qualia. Lo cual me lleva al siguiente punto. Fenomenología. La fenomenología es el estudio de las experiencias conscientes; y se centra en representar, y describir la intrínseca “apariencia” de las escenas conscientes, la manera en que se siente tener experiencias conscientes. Esto sin explicaciones adicionales de ningún tipo, tan solo la manera en que la experiencia se presenta a sí misma.
+
+</p>
+
+<p class="Second-topic">
+    Máquinas de Qualia; la estructura de nuestra mente y su correlación con el cerebro:
+</p>
+<p>
+    Como he mencionado previamente, nuestras experiencias tienen estructura. Nuestra experiencia no pierde congruencia mientras esta se desenvuelve a través del tiempo. Los perceptos de los objetos, y las personas son coherentes y estables, así como otros aspectos, todos estos aparecen &#8212;fenomenológicamente&#8212; como bien-definidas estructuras de la experiencia. Todos los aspectos de nuestra experiencias forman parte de un todo que opera de manera sinérgica, los diferentes matices de qualia pueden complementarse para dar lugar a estructuras que son más que la suma de sus partes, tales como objetos, sonidos, sensaciones, imágenes mentales, etcétera…construyendo así una escena completa de nosotros, y nuestro entorno. Desde luego, nuestra experiencia debe regirse bajo ciertos parámetros para funcionar de esta manera. <br>
+    Lo que intento decir es que nuestra experiencia humana &#8212;como la conocemos&#8212; se presenta de tal sofisticada y elegante manera, que no puede ser algo  incidental. No puede tomarse por sentado. Debe existir una profunda razón que pueda explicar tal “extravagancia”. Esto se basa en la premisa de que cualquier fenomeno o cosa que presenta un comportamiento funcional, y sofisticado, debe implicar una estructura subyacente, o implicita que permita tal comportamiento y apariencia, y la experiencia consciente del mundo que tenemos no es la excepción a este principio.<br> 
+    Podemos obtener un mejor entendimiento de nuestras experiencias conscientes si las examinamos en el contexto de nuestra propia condición humana, como los organismos vivos que somos. <br> 
+    La experiencia ordinaria que tengo es con respecto a ser un humano. Una de las primeras cosas de las que me percato al despertar es la presencia de mi propio cuerpo…Resultaría evidente pensar que uno percibe el mundo a través de este autómata hecho de carne. Nuestra experiencia incluye también una dimensión propioceptiva, y kinestésica &#8212;la sensación de tener un cuerpo&#8212;. Según el lugar donde mi cuerpo se encuentre situado determinará qué tanto del mundo puedo ver. Si cierro los ojos, mis alrededores simplemente desaparecen. Entonces, podría argumentar que mi experiencia se encuentra determinada por la condición de ser este organismo viviente. Cuando alguien “pierde la consciencia” &#8212;es decir, cuando el organismo deja de estar receptivo a los estímulos del ambiente&#8212;, desde su perspectiva el mundo de la experiencia tan solo desaparece sin dejar rastro alguno. En adición con lo anterior, existen otros fenómenos aún más desconcertantes, tales como los estados alterados de consciencia, los cuales demuestran que una intoxicación causada por ciertas drogas puede tener efectos considerables sobre nuestra experiencia consciente.<br> 
+    De tal manera, si queremos entender nuestra experiencia consciente de ser un humano, entonces deberíamos primero entender los mecanismos internos que nos permiten tenerla. ¿Qué implica realmente percibir el mundo?, ¿cómo puede una máquina biológica tener una perspectiva subjetiva de las cosas?, en otras palabras, ¿como se adquiere un punto de vista en "primera-persona"? <br> 
+    Retomando la cuestión inicial. Nuestra fenomenología se comporta como un delimitado, unificado e interconectado sistema, pero como he mencionado previamente, esto no es algo incidental, dicho comportamiento no surge de la nada. <br> 
+    <span style="font-style: italic;">¿Qué determina el verdor de las copas de los árboles? ¿A dónde se va el mundo cuando uno logra conciliar el sueño? ¿Cuál es la naturaleza de la experiencia humana?...</span><br> <br> 
+    
+    ¿De dónde viene el sofisticado diseño de nuestra experiencia humana?, ¿cuál es la naturaleza de este extravagante teatro de la consciencia?, ¿quién manipula las luces, el telón, y el escenario?...
+    <br>    
+    Afortunadamente, existen muy buenos argumentos para pensar en nuestra experiencia como un aspecto adicional de nuestros cerebros, porque existe una inherente correlación entre ambos.<br> No es un mal entendido correlacionar nuestra fenomenología con la cosa que sabemos existe entre nuestras orejas, ¿cierto? Al menos desde el punto de vista de una tercera persona esto hace completo sentido, ¿no es así?…No es casualidad que siempre asociamos nuestras mentes con cerebros…Parece obvio pensar que la estructura de nuestra experiencia es resultado de una elegante computadora biológica &#8212;el cerebro&#8212; efectuando operaciones y demás. Pero nosotros como humanos, tan solo volteamos a ver al cerebro y exclamamos: "¡¿Qué demonios es esto?!" ¿Acaso tiene una extraña jugosa masa de carne tener algo que ver con el asiento tan cómodo y familiar del que disfrutamos en nuestras mentes? ¿Puede un cerebro ser origen de los objetos de nuestra experiencia, así como de temores, placeres, dolores, y sueños?
+</p>
+<br>
+<p>
+    <span style="font-weight: bold;">“¿Como la fenomenología y la anatomía encajan?”</span>
+</p>
+<p>
+    La manera en se siente ser un humano parece no encajar en nada con todas aquellas descripciones objetivas de la biología y anatomía humana. ¿Qué clase de relación podría tener nuestra familiar existencia con las extensas e irreconocibles morfologías de la cosa que en teoría "somos"?, osease el cerebro. 
+</p>
+<img class="how-anatomy" src="imagenes para el sitio/phenomenology.png">
+<p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">
+    Esta ilustración representa el principal problema de la consciencia. ¿Cómo nuestras experiencias subjetivas encajan con nuestro moderno modelo del cerebro? <br><span style="font-weight: bold;">Autor:</span> Aarón Tolentino Maqueda.
+</p>
+<p>
+    Este problema será abordado en las paginas por venir, aunque debe ser comprendido el hecho de que existe una evidente correlación entre nuestra experiencia consciente, y el cerebro. De otra manera sería imposible estudiar la consciencia.<br> Esto implica que lo que experimentamos como el “mundo externo” tiene que ser algo construido por nuestros cerebros, ¿cierto? Con esta premisa, no estamos mal en lo absoluto. Parece ser el caso en el que nos encontramos. Este argumento se atribuye al "realismo indirecto", el cual se abordará de manera detallada en paginas por venir.<br> <span style="font-weight: bold;">En contraste</span> con la premisa anterior &#8212;“el mundo es creado por el cerebro”; realismo indirecto&#8212;, existe una corriente de pensamiento -opuesta- que recibe el nombre de "realismo directo", el cual establece que el mundo de nuestra experiencia consciente es el mundo “objetivo” en sí mismo, en otras palabras, asume que tenemos acceso directo e inmediato a la realidad. Gran parte de la gente, si no toda, realmente piensa que este es el caso, que el mundo de nuestra experiencia es algo aparte, el cual puede permanecer inmutable sin nosotros en él. Aislando al sujeto del “objeto”; como si estos fueran entidades completamente independientes. Así que podríamos pensar en el realismo directo como el paradigma más primitivo que la humanidad haya tenido, porque nuestra experiencia del mundo realmente se “comporta” como si pudiéramos percibirlo de forma directa después de todo, por lo que puede parecer obvio para nuestro sentido común. Pero, si prestamos suficiente atención a sus implicaciones notaremos que existen en realidad un montón de contradicciones o incongruencias con el realismo directo. Mientras provea de razones y argumentos en contra del realismo directo, esto se volverá más evidente. Algunas razones principales por las cuales pienso que el realismo directo no es un modelo de la realidad genuino, sino un paradigma con pobre nivel de análisis, son las siguientes:
+</p>
+<br>
+<p>
+    <span style="font-weight: bold;">&ndash;Primera razón:</span> El realismo directo no toma en consideración los procesos intermedios envueltos en la percepción biológica. El realismo directo afirma que el “mundo objetivo” y el mundo de la experiencia son en esencia la misma cosa, entonces, de acuerdo con esta premisa el cerebro deja de tener una utilidad significativa en términos de percepción. En otras palabras, el realismo directo asume que nuestra experiencia consciente está por encima de nuestra “superficie sensorial”, interactuando de manera pobre o nula con esta última…
+</p>
+<br>
+<p>
+    <span style="font-weight: bold;">&ndash;Segunda razón:</span> El realismo directo no cuenta con ningúna explicación satisfactoria para las “cualidades intrínsecas del mundo externo” (qualia). ¿Por qué el mundo es de esa manera?, “¿por qué no podemos escuchar aromas, o ver sonidos?” ¿De dónde vienen estos atributos?, ¿qué es lo que los determina? Otro argumento similar consiste en que si realmente percibimos el mundo directamente, tal y como este es, ¿por qué no somos capaces de ser explícitamente conscientes de “todo” lo que supuestamente implica? Según nuestro moderno entendimiento del mundo externo, existen infinidad de fenómenos ocurriendo y continuamente desenvolviéndose alrededor de nosotros, sin embargo estos no se encuentran presentes explícitamente en nuestra experiencia consciente del mundo. No podemos percibirlos. Algunos realistas directos sugieren que el cerebro funciona como un “filtro de la realidad”, pero como he mencionado recién, no existe ningúna explicación satisfactoria para ambos argumentos.
+</p>
+
+<br>
+
+<p>
+    <span style="font-weight: bold;">&ndash;Tercera razón:</span> El realismo directo fracasa catastróficamente al intentar explicar fenómenos como las <span style="font-weight: bold;">ilusiones sensoriales, alucinaciones, sueños, variación perceptual, estados alterados de consciencia,</span> y desórdenes causados por condiciones neurológicas, tales como <span style="font-weight: bold;">la sinestesia, e incluso la esquizofrenia</span>.
+
+</p>
+<br>
+<p> 
+    Un argumento adicional en contra del realismo directo sería el siguiente: Cuando la luz entra en ambos ojos, la imagen que se imprime en la superficie de cada retina aparece invertida, sin embargo, nuestra experiencia visual se presenta a sí misma como una unificada escena, orientada correctamente, que también incluye un volumen renderizado por una cualidad de profundidad. Esto claramente implica la existencia de un sistematizado proceso intermedio ocurriendo, el cual hace colapsar este par de imágenes provenientes de ambos ojos en un volumétrico y unificado “espacio virtual”, además de solo rotarlas. Sabemos que nuestra experiencia del mundo integra diferentes "campos sensoriales" de manera simultanea, lo cual sugiere que nuestro cerebro puede -de alguna manera- incorporar multiples modalidades en una misma escena consciente, dando lugar a una representación completa de nuestro entorno. De tal manera, esta resultante debe implicar alguna clase de procesamiento, o sistematización, como he recalcado previamente. Entonces, podemos argumentar que nuestra experiencia requiere toda una suma de sofisticadas operaciones para funcionar apropiadamente. Esto sumado al hecho de que la luz no puede pasar directamente a través del tejido cerebral sin perderse -en el caso de nuestra experiencia visual-, de tal manera, lo que estamos viendo no es luz, sino en realidad fluctuaciones electroquímicas dentro de las neuronas, las cuales representan tales estímulos lumínicos. Pero, esto no es suficiente para explicar las impresionantes caracteristicas de la experiencia consciente. <br>
+    <br>
+    Con esto entendido, procederé finalmente a explicar en qué consiste el realismo indirecto, o realismo representativo.
+
+</p>
+<br><br>
+</div>
+<div class="anterior-siguiente">
+   
+    <div style="width: 50%; text-align: left; margin-left: 5%;">
+        <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="index-español.html">&laquo;Inicio</a>
+    </div>
+    
+    <div class="center" style="width: 90%; text-align: center;">
+
+        <a class="number-1" style="cursor: auto; color: blue; font-weight: bold; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-1.html">1</a>
+        <a class="number-2" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-2.html">2</a>
+        <a class="number-3" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-3.html">3</a>
+        <a class="number-4"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-4.html">4</a>
+        <a class="number-5"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-5.html">5</a>
+        <a class="number-6"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-6.html">6</a>
+        <a class="number-7"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-7.html">7</a>
+        <a class="number-8"  style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%;" href="Pagina-8.html">8</a>
+
+    </div>
+    
+    <div style="width: 50%; text-align: right; margin-right: 5%;">
+    <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Pagina-2.html">Siguiente&raquo;</a>
+    </div>
+    
+    </div>
+</div>
+
+<br>
+<br>
+
+
+    </body>
+</html>
