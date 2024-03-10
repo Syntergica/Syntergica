@@ -56,7 +56,7 @@ text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
         hr {
         border-style: solid;
         border-width: 0.1px;
-        margin: 2%;
+        margin-bottom: 2%;
         color: #333333b8;
     }
 
@@ -75,15 +75,19 @@ text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
         opacity: 0.6;
     }
 
-    .anterior-siguiente {
-        display: flex;
-    }
         body {
         max-width: 80rem;
     margin: 0 auto;
     padding: 0 8%;
     font-size: 1.6rem;
     }
+
+    nav.secondary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+    
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,18 +107,19 @@ text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
 
     <p class="titulo-mamalon">References</p>
     <hr>
-    <div style="margin-top: 7px;" class="anterior-siguiente">
+
+    <nav class="secondary">
    
-        <div style="width: 50%; text-align: center; margin-left: 5%;">
-            <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Post.html">&laquo;Previous</a>
+        <div style="text-align: left;">
+            <a class="Home" style="cursor: pointer; font-size: large; font-style: italic;" href="Post.html">&laquo;Previous</a>
         </div>
         
         
-        <div style="width: 50%; text-align: center; margin-right: 5%;">
-        <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="index.html">Home&raquo;</a>
+        <div style="text-align: right;">
+        <a class="siguiente" style="cursor: pointer; font-size: large; font-style: italic;" href="index.html">Home&raquo;</a>
         </div>
         
-    </div>
+    </nav>
 
 <p style="margin-top: 20px;">
     &#8212;Helbert, P. “Steven Lehar.” Slehar.com, <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="http://slehar.com/wwwRel/Lehar.html" target="_blank">http://slehar.com/wwwRel/Lehar.html</a>.
