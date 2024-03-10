@@ -51,9 +51,6 @@ text-shadow: 0 0 10px #ffffff, 0 0 7px #ffffff;
         
         }
 
-        .anterior-siguiente {
-        display: flex;
-    }
  
 
 .siguiente, .Home {
@@ -109,6 +106,13 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+    
+    nav.secondary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+    
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -458,19 +462,18 @@ src="https://www.youtube.com/embed/AGZiLMGdCE0" title="YouTube video player" fra
         </div>
         
 <hr>
-        <div style="margin-top: 7px;" class="anterior-siguiente">
+        <nav class="secondary">
    
-            <div style="width: 50%; text-align: center; margin-left: 5%;">
-                <a class="Home" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="index.html">&laquo;Home</a>
+            <div style="text-align: left;">
+                <a class="Home" style="cursor: pointer; font-size: large; font-style: italic;" href="index.html">&laquo;Home</a>
             </div>
             
             
-            <div style="width: 50%; text-align: center; margin-right: 5%;">
-            <a class="siguiente" style="cursor: pointer; font-size: large; margin-left: 3%; margin-right: 3%; font-style: italic;" href="Reference-two.html">References&raquo;</a>
+            <div style="text-align: right;">
+            <a class="siguiente" style="cursor: pointer; font-size: large; font-style: italic;" href="Reference-two.html">References&raquo;</a>
             </div>
             
-            
-        </div>
+    </nav>
 <br>
 
     </body>
