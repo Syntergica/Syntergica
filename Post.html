@@ -112,6 +112,56 @@ img {
     justify-content: space-between;
     margin-top: 1.2rem;
 }
+
+d-article, blockquote {
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    padding-left: 2em;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+d-article p, d-article ul, d-article ol, d-article blockquote {
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+}
+
+d-article > * {
+    grid-column: text;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+@media (min-width: 1024px) {
+    d-article {
+        font-size: 1.06rem;
+        line-height: 1.7em;
+    }
+}
+
+d-article {
+    contain: layout style;
+    overflow-x: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 2rem;
+    color: rgba(0, 0, 0, 0.8);
+}
     
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,7 +246,7 @@ src="imagenes para el sitio/galaxy.jpg">
     max-width: 370px;
     width: 100%;" src="imagenes para el sitio/Ernst_Mach_Inner_perspective.jpg"></a>
 </div>
-    <p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Illustration that depicts the phenomenology of a moment of visual conscious experience. By Ernst Mach (1886).</p>
+    <blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">Illustration that depicts the phenomenology of a moment of visual conscious experience. By Ernst Mach (1886).</p></blockquote>
 <p>
     It also can be an useful tool to identify features of them that don't seem to correspond with aspects of the external-physical world. It is quite useful when we are dealing with things such as: <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Illusion" >Illusions</a> &#8212;examples are many&#8212;, <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Hallucination" >hallucinations</a>, <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Altered_state_of_consciousness" >altered states of consciousness</a>, <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Dream" >dreams</a>, and more similar phenomena, which can't be understood in terms of an "external world", but by the implicit mechanics of subjective-experience instead. Also, the very existence of these phenomena gives us an important hint to understand how perception actually works. There's also an adequate analogy to this, which I first heard from <a class="link-2" style="display: inline; cursor: pointer; color: blue" href="https://www.youtube.com/@AndresGomezEmilsson" >Andrés Goméz Emilson</a> &#8212;Co-founder of <a class="link-2" style="display: inline; cursor: pointer; color: blue" href="https://qri.org/" >Qualia Research Institute</a>&#8212;, and it goes something like this, think of our common daily human experience as the room temperature of consciousness, so depending on whether I increase or decrease the temperature of the room, the features and properties of the experience will change as a consequence of this, similar to what does happen to some materials when are exposed to rather high or low temperatures. </p>
     <p>
@@ -241,7 +291,7 @@ src="https://www.youtube.com/embed/_tahdIlOj6s" title="YouTube video player" fra
 </iframe>
 </div>
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">This video is an example of it. After staring at the center of this image for a short but sufficient amount of time, the eyes get exhausted which causes the image to linger in our visual field even though the stimulus is already gone. The image presented in the video doesn't resemble anything because at first glance it just seems like a bunch of random shapes, but once you stare at it for a while and look around, the afterimage presents itself as a familiar form, which in this example comes to be the "face of Jesus Christ". The afterimage seems also to become clearer as one repeatedly blinks. As I previously mentioned, the afterimage appears out in the world, as if it were painted on the walls and ceiling of the room one can see around.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">This video is an example of it. After staring at the center of this image for a short but sufficient amount of time, the eyes get exhausted which causes the image to linger in our visual field even though the stimulus is already gone. The image presented in the video doesn't resemble anything because at first glance it just seems like a bunch of random shapes, but once you stare at it for a while and look around, the afterimage presents itself as a familiar form, which in this example comes to be the "face of Jesus Christ". The afterimage seems also to become clearer as one repeatedly blinks. As I previously mentioned, the afterimage appears out in the world, as if it were painted on the walls and ceiling of the room one can see around.</p></blockquote>
 
 <p>
     If you really think that the world you see is the world itself, then a mere afterimage can represent an anomaly because it is paradoxical through the lens of naive realism. An additional aspect of it is that the picture on our retina is actually inverted, nevertheless, the contents of our visual experience appear right-side up, how is that possible? </p>
@@ -250,7 +300,7 @@ src="https://www.youtube.com/embed/_tahdIlOj6s" title="YouTube video player" fra
     <p>
     So well, we are carrying a weird fact about perception: Light from the world enters our eyes, where it gets transduced by the cells that constitute the retina in the form of electro-chemical impulses that goes all its way down through the optic nerve until it reaches the occipital cortex of the brain, it causes some sort of activation pattern in it, and at that moment, suddenly, in an almost magical way, the world around us gets automatically generated, popping into existence. </p>
             
-<p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">This suggests that the world we experience around us exist as long as the cortex receives sensory input, which results paradoxical if we analyze it from a direct realist standpoint. The brain is supposed to be completely isolated from the external world because it resides inside the skull, where it only has access to electrical signals, however, the world we experience appears to exist beyond the outermost layer of our anatomical structure, far away from the grasp of the brain. Direct realists assume that the world of experience is the world itself, but such a premise would imply the complete absence of any sort of connection between the world of experience and the brain. Nonetheless, evidence demonstrate that the mechanisms responsible for perception and especially experience reside inside the brain.</p>
+<blockquote><p style="font-style: italic; color: rgba(90, 94, 94, 0.9);">This suggests that the world we experience around us exist as long as the cortex receives sensory input, which results paradoxical if we analyze it from a direct realist standpoint. The brain is supposed to be completely isolated from the external world because it resides inside the skull, where it only has access to electrical signals, however, the world we experience appears to exist beyond the outermost layer of our anatomical structure, far away from the grasp of the brain. Direct realists assume that the world of experience is the world itself, but such a premise would imply the complete absence of any sort of connection between the world of experience and the brain. Nonetheless, evidence demonstrate that the mechanisms responsible for perception and especially experience reside inside the brain.</p></blockquote>
 
             
     <p>
@@ -267,7 +317,7 @@ src="https://www.youtube.com/embed/eSmHZI03MmE" title="YouTube video player" fra
 </iframe>
 </div>
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">This scene comes from the movie "Paprika" and I think it perfectly illustrates the idea of dreams as photorealistic simulators that can render almost anything.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">This scene comes from the movie "Paprika" and I think it perfectly illustrates the idea of dreams as photorealistic simulators that can render almost anything.</p></blockquote>
 
 <p>
 Continuing with that thought, we have the phenomenon of hallucinations, which in some cases might appear in the external world, among the objects we normally perceive around us. This is something commonly reported by people who live with some psychiatric disorders such as <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Schizophrenia" >schizophrenia</a> or <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Dementia" >dementia</a>, as well as by people who have experienced some sort of intoxication.
@@ -289,7 +339,7 @@ src="https://www.youtube.com/embed/UIWcvkVMPUI" title="YouTube video player" fra
 </div>
 
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">This video shows an accurate representation of the phenomenon described above. <br> This video belongs to the Youtube channel "cartoon mimosa", which is dedicated to replicate the effects of psychedelics and other substances.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">This video shows an accurate representation of the phenomenon described above. <br> This video belongs to the Youtube channel "cartoon mimosa", which is dedicated to replicate the effects of psychedelics and other substances.</p></blockquote>
 <p>
     This phenomenon is considered as a type of visual hallucination. The inquiry still being the same, how is it possible that something that is supposed to be inside our brains manages to appear right in front of where we know our eyes are? </p>
     
@@ -297,7 +347,7 @@ src="https://www.youtube.com/embed/UIWcvkVMPUI" title="YouTube video player" fra
         <img style="max-width: 480px; width: 100%" src="imagenes para el sitio/It happens out there.jpg">
     </div>  
     <p style="margin-top: 15px;">For someone who has never experienced any sort of hallucination or perceptual distortion, these phenomena may come across as quite unsettling since they appear to have an independent or detached existence from the viewer. This impression might lead us to naively believe that these phenomena have their foundation in the external world since it's where they appear to reside, nonetheless, perceptual distortions don't seem to leave any trace of their existence in the external world where these are reported to be seen, besides that nobody except the subject who claims to "perceive" the distortion can be aware of it.</p> <p>If it weren't for the evidence that perceptual distortions are subjective, many of us wouldn't have a clue about their possible nature. Just as we saw with the case of color blindness and synesthesia, all of this suggests that our experience of the world is private, in other words, everyone lives inside their own "bubble of experience", and the "weather" of a bubble of experience, like its properties, are determined by the brain that is associated with.</p>
-    <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">We tend to assume that we all live in the same world but this might not be the case. As was suggested by the last analogy, what we only might have access to is nothing but a private perceptual copy of the authentic external world. This replica must be located inside our heads where we know all the machinery that accounts for perception exists. If we continue with this thought we may conclude that perceptual distortions and the world of our experience are not completely incompatible entities as both coexist within the brain. Therefore, distortions can only occur within the world of our experience since it's not the world itself but a replica whose stability depends on brain activity.</p>
+    <blockquote><p style="font-style: italic; color: rgba(90, 94, 94, 0.9);">We tend to assume that we all live in the same world but this might not be the case. As was suggested by the last analogy, what we only might have access to is nothing but a private perceptual copy of the authentic external world. This replica must be located inside our heads where we know all the machinery that accounts for perception exists. If we continue with this thought we may conclude that perceptual distortions and the world of our experience are not completely incompatible entities as both coexist within the brain. Therefore, distortions can only occur within the world of our experience since it's not the world itself but a replica whose stability depends on brain activity.</p></blockquote>
 <p>
     Something far less severe is an illusion, though it still is an easy way to demonstrate that we are not seeing things as they really are, therefore, our senses are not as flawless as we thought they were. Illusions are very common and everyone can experience them, they come in many flavors, some static images can generate the illusion of movement, while others can make us see shapes and things when there are not any. </p>
     <div class="center">
@@ -313,8 +363,8 @@ src="https://www.youtube.com/embed/UIWcvkVMPUI" title="YouTube video player" fra
     <p>
     Things in the physical world are always the size they are and that doesn't change, nevertheless, our conscious experience of the world appears deformed. Therefore, this confirms that the contents of our experience are somehow determined by the structure of our human anatomy; let alone the fact that this only represents the first level of perception, beginning with our eyeballs. </p>
     <p>However, the world that we experience appears as a volumetric structure enveloping our phenomenal bodies, there's some sort of depth value that pervades the scene, so it might seem that the world we see can't just be a flat picture on our retina after all, nonetheless, the world of our visual experience also includes perspective which by itself represents a contradiction. </p>
-    <p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">
-    A little comment here is that I'm focusing more on visual experience to unpack these concepts because vision relative to the other senses comes to be the most "reliable source of information" for us, humans, therefore I thought that if I could demonstrate that that isn't the case, it would be easiest to think of the other features of our experience in this exact way, as mere "widgets" developed by the slow process of biological evolution. This idea will make more sense as long as we get deeper into this section of the blog. </p>
+    <blockquote><p style="font-style: italic; color: rgba(90, 94, 94, 0.9);">
+    A little comment here is that I'm focusing more on visual experience to unpack these concepts because vision relative to the other senses comes to be the most "reliable source of information" for us, humans, therefore I thought that if I could demonstrate that that isn't the case, it would be easiest to think of the other features of our experience in this exact way, as mere "widgets" developed by the slow process of biological evolution. This idea will make more sense as long as we get deeper into this section of the blog. </p></blockquote>
     <p>
     Returning to the topic, a stubborn direct realist would be unsettled because the nature of visual experience ends up being paradoxical, from his point of view, the world he experiences is indeed the world itself, although, whatever is happening in the retina somehow finds the way to appear out in the world, similar to what occurs in the case of afterimages, therefore, if projection theory isn't correct either, how is it possible that something theoretically occurring inside our eyeball appears out displayed into the "external world"? </p>
     <p>
@@ -325,7 +375,7 @@ src="https://www.youtube.com/embed/UIWcvkVMPUI" title="YouTube video player" fra
    <img style="display: inline-block; max-width: 450px; width: 100%" src="imagenes para el sitio/ezgif.com-gif-to-jpg-converter.jpg"></a>
     </div>
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">An illustration that depicts the gist of indirect realism, in which the world of experience is seen as an isolated and active representation of a remote environment that exists beyond the external surface of the physical body. <br> <span style="font-weight: bold;">Author:</span> Steven Lehar.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">An illustration that depicts the gist of indirect realism, in which the world of experience is seen as an isolated and active representation of a remote environment that exists beyond the external surface of the physical body. <br> <span style="font-weight: bold;">Author:</span> Steven Lehar.</p></blockquote>
 
 <p>
     The thing that Steven Lehar is pointing at is what is known nowadays as the "indirect theory of perception", which is the very alternative and also the most accurate way to address biological perception and its role in consciousness. As you might already infer, this current of thought is the opposite argument relative to direct realism, but in the upcoming paragraphs, I'll explain why both can actually fit very well in the same picture. Before that happens, we should first unpack the concept of indirect perception. </p>
@@ -355,10 +405,10 @@ Something not less important to consider is the limited capacity of the senses s
     <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="http://slehar.com/wwwRel/webstuff/book/fig4.10.html" >
 <img style="display: inline-block; max-width: 350px; width: 100%" src="imagenes para el sitio/homunculi scanning the world simulation.jpg"></a>
 </div>
-            <p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Although there are many gaps and blind spots distributed across the sensory representation we inhabit, the brain has found sophisticated alternatives to deal with missing information. Our world simulation also includes low-level representations based on predictions, so it's not necessary to rely solely on what the senses can provide. The representation that's coupled with sensory information exists as an explicit structure within our experience, exhibiting a sturdy and stable appearance, also capable of maintaining permanence in detail, while the things that lie beyond the grasp of the senses are rendered implicitly, as hypothetical percepts.<br><span style="font-weight: bold;">Author:</span> Steven Lehar.</p>
+            <blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">Although there are many gaps and blind spots distributed across the sensory representation we inhabit, the brain has found sophisticated alternatives to deal with missing information. Our world simulation also includes low-level representations based on predictions, so it's not necessary to rely solely on what the senses can provide. The representation that's coupled with sensory information exists as an explicit structure within our experience, exhibiting a sturdy and stable appearance, also capable of maintaining permanence in detail, while the things that lie beyond the grasp of the senses are rendered implicitly, as hypothetical percepts.<br><span style="font-weight: bold;">Author:</span> Steven Lehar.</p></blockquote>
             <p>
 Similar to what occurs in most video games, there's no use in rendering the whole virtual world at once since the player can only experience one limited chunk of it at a time as it wanders around. Rendering the entire world would be unnecessary and expensive, instead, what's only required to be rendered is what the player can perceive in all directions at one particular time, so you're giving it the illusion that it has full access to an entire world when it's not. The things that are beyond the grasp of the "sensory field's" player do not exist since these are not getting rendered at all. </p> <p>Certain properties such as perspective make this task even easier since there's a limited resolution in every visual scene, the things that are far enough from the viewer decrease in such phenomenal size that can be replaced by smaller and simpler models if not mere images. Some video games even use flat backgrounds or GIFs to simulate things that are pretty far from the viewer, such as the horizon, the sky, or distant mountains, which is quite funny. Also and not less remarkable, things that are occluded by other objects don't need to be fully rendered since these are out from the visual field's player.</p>
-<p style="text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Therefore, the "world" with which the player interacts resembles a bounded bubble enclosing it.</p>
+<blockquote><p style="font-style: italic; color: rgba(90, 94, 94, 0.9);">Therefore, the "world" with which the player interacts resembles a bounded bubble enclosing it.</p></blockquote>
 <div class="center">
     <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="http://slehar.com/wwwRel/webstuff/book/fig2.1.html" >
 <img style="display: inline-block; max-width: 350px; width: 100%" src="imagenes para el sitio/perspectiveprojection.png"></a>
@@ -392,7 +442,7 @@ src="https://www.youtube.com/embed/AGZiLMGdCE0" title="YouTube video player" fra
     <p style="margin-top: 15px;">This copy simulates the true physical head whose inner surface resides beyond the walls of what we experience. The bluish dome of the sky that we tend to contemplate at any time during the day can be conceived as a recurrent configuration of our world simulation's ceiling sheet. Above that dome we can find some neurons and glia, alongside the inner surface of the true physical skull. </p>
            
     
-           <p style="text-align: center; margin-left: 5%; margin-right: 5%; font-style: italic; color: rgba(90, 94, 94, 0.9);">This reminds me of that amazing episode from the Cosmos documentary series, which portrays the life of the philosopher Giordano Bruno. In one scene, it is shown that Giordano had once an astonishing dream that changed the way he conceived the Universe. <br> What intrigued me the most was the way the world was depicted within Giordano's dream, and I'd consider it as an intuitive representation of what world simulations look like.</p>
+           <blockquote><p style="font-style: italic; color: rgba(90, 94, 94, 0.9);">This reminds me of that amazing episode from the Cosmos documentary series, which portrays the life of the philosopher Giordano Bruno. In one scene, it is shown that Giordano had once an astonishing dream that changed the way he conceived the Universe. <br> What intrigued me the most was the way the world was depicted within Giordano's dream, and I'd consider it as an intuitive representation of what world simulations look like.</p></blockquote>
 
            <div class="center">
             <iframe style="max-width: 560px;
@@ -402,7 +452,7 @@ src="https://www.youtube.com/embed/AGZiLMGdCE0" title="YouTube video player" fra
     </iframe>
     </div>
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);"> Maybe Giordano wasn't only hallucinating stars and planets but also contemplating the sophisticated mechanisms of his private world simulation.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);"> Maybe Giordano wasn't only hallucinating stars and planets but also contemplating the sophisticated mechanisms of his private world simulation.</p></blockquote>
 
     <p>It is worth mentioning that this illustration seeks to represent the essence of indirect perception relative to phenomenology and its theoretical location, leading to a more accurate depiction of the overall premise that we've been discussing previously. As it has been explicitly stated, indirect realism assumes that our experience of the world and the internal representation rendered by the brain, are indeed the same entity. </p>
     <p>
@@ -412,7 +462,7 @@ src="https://www.youtube.com/embed/AGZiLMGdCE0" title="YouTube video player" fra
     <div class="center">
         <img style="max-width: 400px; width: 100%" src="imagenes para el sitio/neurons.jpg">
         </div>
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Wouldn't be fun to see intangible neurons floating around and appearing in random surfaces? <br> This drawing depicts the essence of the previous premise.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">Wouldn't be fun to see intangible neurons floating around and appearing in random surfaces? <br> This drawing depicts the essence of the previous premise.</p></blockquote>
 
 <p>
     After all, the space we sense around us, the objects that appear solid and stable, the people we know, and the sky over our heads, turn out to be a set of sophisticated parameters and metrics that the brain uses to represent what's happening in the remote external world. </p>
@@ -432,7 +482,7 @@ src="https://www.youtube.com/embed/AGZiLMGdCE0" title="YouTube video player" fra
     </div>
 
 
-<p style="margin-top: 15px; text-align: center; margin-left: 10%; margin-right: 10%; font-style: italic; color: rgba(90, 94, 94, 0.9);">Another illustration made by Steven Lehar depicts the way our visual experience is rendered by the brain. The space inside the representation is warped because it blends continuously as it represents distance until collapsing into a plane.</p>
+<blockquote><p style="margin-top: 15px; font-style: italic; color: rgba(90, 94, 94, 0.9);">Another illustration made by Steven Lehar depicts the way our visual experience is rendered by the brain. The space inside the representation is warped because it blends continuously as it represents distance until collapsing into a plane.</p></blockquote>
 
 <p>
      Relative to the observer &#8212;"the homunculus"&#8212;, the things that are closer to it are rendered as large and compelling volumes, while those far enough appear as miniature models embellished with slight depth, then, the farthest things in the scene, such as distant mountains and clouds, collapse into flat images as if they were painted on the dome of the sky. </p>
