@@ -167,6 +167,46 @@ d-article {
     padding-top: 2rem;
     color: rgba(0, 0, 0, 0.8);
 }
+
+    .row {
+width: 70%;
+max-width: auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.row .left {
+overflow: hidden;
+}
+
+.row .left img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.row .right {
+display: flex;
+align-items: center;
+}
+
+
+
+@media (max-width: 991px) {
+  .row .right .content {
+padding-left: 0; 
+} 
+}
+
+@media (max-width: 768px) {
+
+.row {
+width: 90%;
+grid-template-columns: 1fr;
+
+}
+}
     
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -263,10 +303,29 @@ src="imagenes para el sitio/galaxy.jpg">
     <p>
     I'll start with the most intuitive, which is also naively accepted by most people, this one is known as the "direct theory of perception", which defends the idea that we are capable of directly perceiving what's around us, so it assumes that we experience the world as it really is, therefore implying that there's not an intermediate process required to have an experience of the world around us. From the point of view of direct realism, the world of our experience exists beyond our sensory surface, where it's independent of all the "perceptual machinery" that is supposed to be involved in our human physiology. In other terms, direct realism suggests that the visual experience we're having right now is not a picture on our retina nor a fancy perceptual replica residing somewhere inside our head, but a fixated and all-encompassing volumetric structure surrounding us that extends even beyond what we can be aware of at the moment, which also includes color, hue, shadows, and whatnot, as if these were intrinsic features of the world itself. To make it sound even more assertive, we could add the other features of our common experience that are left, such as sound, taste, or scent.
     According to this model, all of those characteristics of experience exist independently. </p>
+
+<div class="row" style="margin: auto;">
+        <div class="left" style="margin: auto;">
+                  <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="http://slehar.com/wwwRel//epist/epist1.html"><img style="display: inline-block;
+                    max-width: 200px; width: 100%;" src="imagenes para el sitio/direct realism.jpg" alt=""></a>
+        </div>
+     
+         <div class="right" style="">
+              <div class="content">
+                      <blockquote style="padding-left: 0.5em; margin-block-start: 1em;
+                      margin-block-end: 1em;
+                      margin-inline-start: 0;
+                      margin-inline-end: 0"><p>Direct theory of perception, better known as direct realism, claims that we have direct and immediate access to the external world. It is considered to be the most intuitive and quite self-evident understanding concerning the nature's of the world of our conscious experience. 
+                      </p></blockquote>
+              </div>
+         </div>
+     
+     </div>
+            
     <p>
     Then, we could infer that direct realism takes too seriously the dualism between subject and object, which is not something wrong, there has to be for sure an objective reality detached from us, which stays in the same way even when we are not there to perceive it, BUT, direct realism fails for assuming that the world of conscious experience and the objective world are the very same thing. So, under this logic, it doesn't matter at all if there are no people around to be aware of the events of this world because according to direct realism, things always exist in the same qualitative way we experience them when we are present. </p>
     <p>
-    So, it doesn't matter at all whether we are there or not to be aware of things. <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest" >A tree that falls in the middle of a deserted forest</a> still produces a sound, even though there's no one around to experience such a thing. An apple stays red and sweet, no matter if we are not there to see it or taste it. A scent would always smell good even if there's no one to confirm it. If we dip down even more, we'll promptly realize that there are a ton of gaps and flaws with this model. 
+    So, it doesn't matter at all whether we are there or not to be aware of things. <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/If_a_tree_falls_in_a_forest" >If a tree that falls in the middle of a deserted forest</a> it still produces a sound, even when there's no one around to hear such a thing. An apple stays red and sweet, no matter if we are not there to see it or taste it. A scent would always smell good even if there's no one to confirm it. If we dip down even more, we'll promptly realize that there are a ton of gaps and flaws with this model. 
     There is a set of things that easily would put this "pseudo-hypothesis" in doubt, known in psychology and neuroscience as the phenomena of perceptual variance, meaning that the world might appear different from the subjective experience of some people, implying that the world is not exactly the same for everyone. </p>
     <p>
     One example of this is <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Color_blindness" >color blindness</a>, in which people who have this condition are not capable of experiencing colors the same way a "typical person" would do, in other words, if we were able to compare individual phenomenologies which contents were, in theory, the same scene, one from a color blind person and then another from someone who is not, and let's say, for example, that the scene in which both experiences coincide is about a tomato over a desk, after contrast, we would promptly realize that each experience has its own type of red, although the scene is exactly the same. How is that possible? If we take naive realism seriously this would be impossible because it assumes that color is an intrinsic feature of the world itself, and therefore it has to be the same for everyone, but the truth is that that doesn't happen. A most extreme case of perceptual invariance is <a class="link-2" style="display: inline; cursor: pointer; color: rgba(90, 94, 94, 0.9);" href="https://en.wikipedia.org/wiki/Synesthesia" >synesthesia</a>, which is an incredible phenomenon because it messes with the nature of each sensory modality we humans have. </p>
@@ -281,7 +340,7 @@ src="imagenes para el sitio/galaxy.jpg">
 
 <div class="center">
         <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="https://en.wikipedia.org/wiki/Cartesian_theater#/media/File:Cartesian_Theater.svg" target="_blank">
-        <img style="display: inline-block; max-width: 425px; width: 100%" src="imagenes para el sitio/800px-Cartesian_Theater.svg.png"></a>
+        <img style="display: inline-block; max-width: 390px; width: 100%" src="imagenes para el sitio/800px-Cartesian_Theater.svg.png"></a>
          </div>
          
         <blockquote><p>This illustration represents the gist of the Cartesian theater idea in an almost cartoonish way. Still, it points out the problem of trying to localize where the source of awareness and experience might reside. In other words, it tries to answer the question of what and where is the thing that makes the world experienceable. Nonetheless, as I said before, this argument is relatively primitive and outdated, as it is inferred from <a class="link-2" style="display: inline; cursor: pointer; font-weight: 500;" href="https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes">Rene Descartes's</a> hypotheses.</p></blockquote>
@@ -310,7 +369,27 @@ src="https://www.youtube.com/embed/_tahdIlOj6s" title="YouTube video player" fra
 <p>
     If you really think that the world you see is the world itself, then a mere afterimage can represent an anomaly because it is paradoxical through the lens of naive realism. An additional aspect of it is that the picture on our retina is actually inverted, nevertheless, the contents of our visual experience appear right-side up, how is that possible? </p>
     <p>
-    At this point, some people would speculate and consider other alternatives to solve the problem, one of these secondary arguments is the projection theory of perception whereby phenomenal experience is indeed a distinct entity from the authentic external world that exists beyond the skull but is not thought of to be contained within the brain, although it doesn't deny their dependence. What projection theory suggests is that the brain expells the world of our experience &#8212;which is a product of it&#8212; out onto the remote external environment, in such a way that both end up superimposed. In this blog, we ignore this alternative because there's no rigorous evidence about something getting out from the brain, or the eyes. I personally don't believe that our head is some sort of projector. </p> <p>Hence, if this is not valid either, what is actually going on? </p>
+    At this point, some people would speculate and consider other alternatives to solve the problem, one of these secondary arguments is the projection theory of perception whereby phenomenal experience is indeed a distinct entity from the authentic external world that exists beyond the skull but is not thought of to be contained within the brain, although it doesn't deny their dependence. What projection theory suggests is that the brain expells the world of our experience &#8212;which is a product of it&#8212; out onto the remote external environment, in such a way that both end up superimposed. In this blog, we ignore this alternative because there's no rigorous evidence about something getting out from the brain, or the eyes. I personally don't believe that our head is some sort of projector. </p> 
+            
+            <div class="row" style="margin: auto;">
+        <div class="left" style="margin: auto;">
+                  <a class="link-1" style="display: inline; cursor: pointer; color: blue" href="http://slehar.com/wwwRel//epist/epist1.html"><img style="display: inline-block;
+                    max-width: 255px; width: 100%;" src="imagenes para el sitio/projection theory.jpg" alt=""></a>
+        </div>
+     
+         <div class="right" style="">
+              <div class="content">
+                      <blockquote style="padding-left: 0.5em; margin-block-start: 1em;
+                      margin-block-end: 1em;
+                      margin-inline-start: 0;
+                      margin-inline-end: 0"><p>As it was previously mentioned, projection theory proposes an incredible but quite bizarre alternative, whereby the brain has the ability to project its internal representations out into the external world. 
+                      </p></blockquote>
+              </div>
+         </div>
+     
+     </div>
+            
+            <p>Hence, if this is not valid either, what is actually going on? </p>
     <p>
     So well, we are carrying a weird fact about perception: Light from the world enters our eyes, where it gets transduced by the cells that constitute the retina in the form of electro-chemical impulses that goes all its way down through the optic nerve until it reaches the occipital cortex of the brain, it causes some sort of activation pattern in it, and at that moment, suddenly, in an almost magical way, the world around us gets automatically generated, popping into existence. </p>
             
@@ -413,7 +492,7 @@ src="https://www.youtube.com/embed/6w_l7lMEsVk" title="YouTube video player" fra
     If we take a look into our conscious experience of the world, one of the most outstanding properties it has is that it appears as a whole, each sensory modality is displayed simultaneously in the same moment of experience. As it was previously argued, the brain is responsible for assembling all the sensory information that comes from different sources in the form of a unified representation, which is the reason why we can enjoy a complete experience of the world as we commonly do. </p> <p>Therefore, these "perceptual fields" that simulate different stimuli not only can coexist within the same model but also they can complement each other, leading to the inclusion of implicit features that might be advantageous since these represent important aspects of the remote environment, always relative to the organism. 
 For example, the perceptual copy of the body appears to be contained inside the perceptual copy of the world, as if it were some sort of hamster ball, which results accurate for what's supposed to represent.</p>
 <div class="center">
-    <img style="max-width: 400px; width: 100%" src="imagenes para el sitio/hamster ball.jpg">
+    <img style="max-width: 300px; width: 100%" src="imagenes para el sitio/hamster ball.jpg">
 </div>
     <p style="margin-top: 15px;">Regardless of each eye being separated from the other, our visual experience integers simultaneously both images captured by each eye, hence, the unique way to make these parallel images converge or meet each other is through the brain, same for the other senses. All the information that comes from the external world converges inside the brain in the form of electrical signals. </p>
     <p>
